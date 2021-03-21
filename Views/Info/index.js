@@ -1,18 +1,9 @@
 import React from 'react';
 import { Container, Text, Title, View } from './style.js'
-import { AdMobBanner, setTestDeviceIDAsync } from 'expo-ads-admob';
 
 export default function Info() {
   return (
-    <Container>
-
-      <AdMobBanner
-        bannerSize="fullBanner"
-        adUnitID="ca-app-pub-3940256099942544/6300978111"
-        setTestDeviceIDAsync
-        servePersonalizedAds
-        onDidFailToReceiveAdWithError={(err) => console.log(err)} 
-      />      
+    <Container>   
 
       <View>
         <Title>  Encontre o computador ideal para você!  </Title>

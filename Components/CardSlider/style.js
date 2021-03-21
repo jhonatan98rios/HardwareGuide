@@ -12,7 +12,8 @@ export const Bold = styled.Text`
 `
 
 export const Image = styled.Image`
-  width: 100px;
+  padding: 8px;
+  width: 130px;
   height: 100px;
   margin: -48px auto 16px;
 `

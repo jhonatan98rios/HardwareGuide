@@ -4,6 +4,7 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   background-color: #000000;
+  justify-content: center;
 `
 
 export const View = styled.View`
@@ -11,7 +12,6 @@ export const View = styled.View`
   height: 300px;
   align-items: center;
   border-radius: 8px;
-  margin-top: 25%;
 `
 
 export const Title = styled.Text`
