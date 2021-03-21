@@ -1,30 +1,14 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { AdMobBanner, setTestDeviceIDAsync } from 'expo-ads-admob';
+import { View, Text } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+
+import TabsNavigation from './Routes/tabs'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      
-      <Text> Olá Mundo! </Text>
-
-      <AdMobBanner
-        bannerSize="fullBanner"
-        adUnitID="ca-app-pub-3940256099942544/6300978111"
-        setTestDeviceIDAsync
-        servePersonalizedAds
-        onDidFailToReceiveAdWithError={(err) => console.log(err)} 
-      />
-    </View>
+    <NavigationContainer>
+      <TabsNavigation />
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
