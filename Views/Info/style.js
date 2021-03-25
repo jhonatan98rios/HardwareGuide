@@ -8,7 +8,7 @@ export const Container = styled.View`
 `
 
 export const View = styled.View`
-  width: 80%;
+  width: 90%;
   height: 300px;
   align-items: center;
   border-radius: 8px;
@@ -17,8 +17,8 @@ export const View = styled.View`
 export const Title = styled.Text`
   text-align: center;
   width: 80%;
-  margin-top: 16px;
-  color: #ffffff;
+  margin: 16px 0px 16px;
+  color: #4CC392;
   font-size: 18px;
   font-weight: bold;
   text-shadow: 1px 1px 2px #000;
@@ -26,4 +26,8 @@ export const Title = styled.Text`
 
 export const Text = styled(Title)`
   font-size: 14px;
+  font-weight: normal;
+  color: #ffffff;
+  margin: 8px;
+  line-height: 18px;
 `

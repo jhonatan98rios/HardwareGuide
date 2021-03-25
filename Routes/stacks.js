@@ -4,6 +4,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 import Search from '../Views/Search'
 import Result from '../Views/Result'
 
+import Popular from '../Views/Popular'
+import PopularResult from '../Views/PopularResult'
+
 const Stack = createStackNavigator();
 
 const options = {
@@ -29,6 +32,24 @@ function StackNavigation() {
         options={{
           ...options,
           title: 'Recomendações',
+        }}
+      />
+
+      <Stack.Screen 
+        name="Popular"
+        component={Popular}
+        options={{
+          ...options,
+          title: 'Vitrine',
+        }}
+      />
+
+      <Stack.Screen 
+        name="PopularResult"
+        component={PopularResult}
+        options={{
+          ...options,
+          title: 'Computadores populares',
         }}
       />
     </Stack.Navigator>

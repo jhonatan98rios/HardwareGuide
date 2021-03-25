@@ -6,7 +6,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "debug": "react-devtools"
+    "debug": "react-devtools",
+    "build": "expo build:android -t apk",
+    "bundle": "expo build:android -t app-bundle"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",

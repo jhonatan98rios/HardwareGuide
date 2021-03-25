@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Image } from 'react-native';
 import { Container, Title, Text, TextInput, Button, Disclaimer } from './style.js'
 
 export default function Search({ navigation }) {
@@ -20,12 +19,6 @@ export default function Search({ navigation }) {
 
   return (
     <Container>
-      <Image 
-        style={{width: 64, height: 64 }}
-        source={require('../../assets/hologram.jpg')} 
-        resizeMode='cover'
-      />
-
       <Title>Me fale sobre o computador que você precisa</Title>
 
       <TextInput
@@ -39,15 +32,13 @@ export default function Search({ navigation }) {
         autoCapitalize="sentences"
       />
 
-      {
-        sample.length >= 3 && (
-          <Button onPress={() => next(sample)}> 
-            <Text>
-              Confirmar
-            </Text>
-          </Button>
-        )
-      }
+      {sample.length >= 3 && (
+        <Button onPress={() => next(sample)}> 
+          <Text>
+            Confirmar
+          </Text>
+        </Button>
+      )}
 
       <Disclaimer>
         * As frases serão armazenadas e posteriormente utilizadas no treino do algoritmo  

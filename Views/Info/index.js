@@ -4,7 +4,6 @@ import { Container, Text, Title, View } from './style.js'
 export default function Info() {
   return (
     <Container>   
-
       <View>
         <Title>  Encontre o computador ideal para você!  </Title>
         <Text> Através de inteligência artifícial e processamento de linguagem natural, o Smart Gadget é capaz de identificar qual hardware e software se encaixam em suas necessidades. </Text>

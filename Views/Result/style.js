@@ -8,20 +8,12 @@ export const Container = styled.View`
   height: auto;
 `
 
-export const Block = styled(Container)`
-  background-color: transparent;
-  height: auto;
-  max-height: 80%;
-`
-
-export const BackButton = styled.TouchableOpacity`
-  width: 300px;
-  height: 50px;
-  border: none;
-  font-size: 20px;
-  background-color: transparent;
-  margin: 0px;
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
+export const Title = styled.Text`
+  text-align: center;
+  width: 60%;
+  margin-top: 32px;
+  color: #4CC392;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #000;
 `

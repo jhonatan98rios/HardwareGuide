@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import { Container, ScrollView, Title, View, TouchableOpacity, Text} from './style.js'
 import { options } from '../../Mockdata/Popular'
-import Modal from '../../Components/Modal';
 
-export default function Popular() {
+export default function Popular({ navigation }) {
 
-  const [ data, setData ] = useState(null)
-
-  const closeModal = () => setData(null)
+  function navigate(itens){
+    navigation.navigate('PopularResult', {
+      itens,
+    });
+  }
 
   return (
     <Container>
@@ -18,7 +19,7 @@ export default function Popular() {
           { options.map((option, index) => (
             <TouchableOpacity 
               key={index}
-              onPress={()=> setData(option.itens)}
+              onPress={()=> navigate(option.itens)}
             >
               <Text>
                 { option.name }
@@ -28,7 +29,6 @@ export default function Popular() {
         </ScrollView>
       </View>
 
-      { data && <Modal data={data} closeModal={closeModal} /> }
     </Container>
   );
 }
