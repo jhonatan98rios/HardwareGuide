@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, Text } from 'react-native'
 import axios from 'axios'
-import { Container, Block, Title } from './style.js'
+import { Container, Title, Disclaimer } from './style.js'
 
 import CardSlider from '../../Components/CardSlider'
 
@@ -37,6 +37,7 @@ export default function Result({ route, navigation }) {
         <Container>
           <Title> Veja as sugestões que separamos para você </Title>
           <CardSlider content={content} /> 
+          <Disclaimer> * Os preços podem váriar  de acordo com o mercado. Os preços ilustrados são somente para comparação. </Disclaimer>
         </Container>
       )
     }

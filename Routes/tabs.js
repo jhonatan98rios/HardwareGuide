@@ -3,11 +3,8 @@ import { View } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/Entypo';
 
-import StackNavigation from './stacks'
-import Popular from '../Views/Popular'
+import { StackNavigation, PopularStackNavigation } from './stacks'
 import Info from '../Views/Info'
-/* import Introduction from '../Views/Introduction'
-import Requirements from '../Views/Requirements' */
 
 import { IconTabRound } from './style'
 
@@ -31,9 +28,11 @@ const iconSelector = function(name){
 const tabBarOptions = {
   activeTintColor: '#4CC392',
   inactiveTintColor: '#aaa',
-  tabStyle: {
-    backgroundColor: '#222',
-    paddingBottom: 4
+  style: {
+    backgroundColor: '#0F0F1F', //'#202024',
+    paddingBottom: 4,
+    borderTopWidth: 0,
+    height: 56,
   }
 }
 
@@ -76,18 +75,9 @@ function TabsNavigation() {
 
       <Tab.Screen
         name="Popular"
-        component={Popular}
+        component={PopularStackNavigation}
       />
 
-      {/* <Tab.Screen
-        name="Requerimentos"
-        component={Requirements}
-      />
-
-      <Tab.Screen
-        name="Introduction"
-        component={Introduction}
-      /> */}
     </Tab.Navigator>
   )
 }

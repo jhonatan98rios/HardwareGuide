@@ -8,6 +8,7 @@ export default function Search({ navigation }) {
   function next(){
     if(sample.length >= 3){ 
       navigation.push('Result', { sample })
+      setSample('')
     }
   }
 

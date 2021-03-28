@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, ScrollView, Title, View, TouchableOpacity, Text} from './style.js'
+import { Container, ScrollView, Title, View, TouchableOpacity, Text, Disclaimer} from './style.js'
 import { options } from '../../Mockdata/Popular'
 
 export default function Popular({ navigation }) {

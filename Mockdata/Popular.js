@@ -1,101 +1,107 @@
 const hardware = {
   notebooks: {
-    low: [{
-      "name": "Acer Aspire 3 A315-53-P884",
-      "image": "https://i.imgur.com/NeV88yV.png",
-      "cpu": "Pentium Gold",
-      "storage": "500GB - HD",
+    low: [
+    {
+      "name": "Chromebook Samsung XE501C13-AD3BR",
+      "image": "https://i.imgur.com/B3mvhI0.png",
+      "cpu": "Intel Celeron N3060",
+      "storage": "32 GB - SSD",
       "ram": "4GB",
-      "gpu": "Intel HD Graphics 610",
+      "gpu": "Intel HD Graphics 400",
+      "SO": "Google Chrome OS",
+      "screen": "Tela 11,6' LED HD",
+      "weight": "1,6kg",
+      "price": "1.800,00"
+    },
+    {
+      "name": "Lenovo Ideapad S145",
+      "image": "https://i.imgur.com/QKxOZJA.png",
+      "cpu": "Intel Celeron N4020",
+      "storage": "128GB - SSD",
+      "ram": "4GB",
+      "gpu": "Intel HD Graphics 600",
       "SO": "Windows 10",
-      "screen": "14' LED Full HD",
-      "weight": "2,1kg",
-      "price": "1.799,00"
-    },{
-      "name": "Dell Inspiron 15 3000 3584ML1P",
-      "image": "https://i.imgur.com/29ViNea.png",
-      "cpu": "Intel Core I3",
+      "screen": "15.6” LED HD",
+      "weight": "1,85kg",
+      "price": "2.400,00"
+    },
+    {
+      "name": "Dell Inspiron I15-3583-AS05P",
+      "image": "https://i.imgur.com/ww0aPd4.png",
+      "cpu": "Pentium Gold 5405U",
+      "storage": "128GB - SSD",
+      "ram": "4GB DDR4",
+      "gpu": "Intel HD Graphics 600",
+      "SO": "Windows 10",
+      "screen": "Tela 15,6' LED HD",
+      "weight": "2kg",
+      "price": "R$2800,00",
+    }],
+
+    mid: [
+    {
+      "name": "Lenovo Ideapad S145",
+      "image": "https://i.imgur.com/QKxOZJA.png",
+      "cpu": "Intel Core i3",
       "storage": "128GB - SSD",
       "ram": "4GB",
       "gpu": "Intel UHD Graphics 620",
       "SO": "Windows 10",
-      "screen": "15.6” LED HD",
-      "weight": "2,01kg",
-      "price": "2.300,00"
-    },{
-      "name": "Motion I341TBi",
-      "image": "https://i.imgur.com/TYDBJ6t.png",
-      "moba": "Positivo",
-      "cpu": "Intel i3-8130U",
-      "storage": "HD 1TB",
-      "ram": "4GB DDR4",
-      "gpu": "Intel UHD Graphics 620",
-      "SO": "Windows 10",
-      "screen": "Tela 14",
-      "weight": "2kg",
-      "price": "R$2500,00",
-    }],
-
-    mid: [{
-      "name": "Lenovo Ideapad S145-15IWL",
-      "image": "https://i.imgur.com/QKxOZJA.png",
-      "cpu": "Intel Core i5",
-      "storage": "1TB - HD",
-      "ram": "8GB",
-      "gpu": "Intel UHD Graphics 620",
-      "SO": "Windows 10",
       "screen": "15.6 LED HD",
       "weight": "1,85kg",
-      "price": "2.600,00"
-    },{
-      "name": "Dell Inspiron I15-3583-D3XP",
-      "image": "https://i.imgur.com/ww0aPd4.png",
-      "cpu": "Intel Core i5",
+      "price": "3.300,00"
+    },
+    {
+      "name": "Acer Aspire 3 A315-56-34a9",
+      "image": "https://i.imgur.com/tkICaGs.png",
+      "cpu": "Intel Core i3",
       "storage": "1TB - HD",
       "ram": "8GB",
       "gpu": "Intel UHD Graphics 620",
-      "SO": "Linux",
+      "SO": "Windows 10 Home",
       "screen": "15.6 LED HD",
       "weight": "2.03kg",
-      "price": "2.800,00"
-    },{
-      "name": "Dell Inspiron 15 i15-3583-A20P",
-      "image": "https://i.imgur.com/y7rFQhJ.png",
-      "cpu": "Intel Core i5",
-      "storage": "2TB - HD",
-      "ram": "8GB",
-      "gpu": "AMD Radeon 520 2GB",
+      "price": "3.500,00"
+    },
+    {
+      "name": "Acer Aspire 3 A315-23",
+      "image": "https://i.imgur.com/tkICaGs.png",
+      "cpu": "AMD Ryzen 5 3500U",
+      "storage": "1TB - HD",
+      "ram": "12GB",
+      "gpu": "AMD Radeon Vega 8",
       "SO": "Windows 10 Home",
-      "screen": "15,6 Full HD",
+      "screen": "15,6 LED HD",
       "weight": "2,03kg",
-      "price": "3.200,00"
+      "price": "4.000,00"
     }],
 
-    high: [{
-      "name": "Acer Aspire Nitro 5 AN515-51-71A7",
-      "image": "https://i.imgur.com/NgJ0sNJ.png",
-      "cpu": "Intel Core i7",
-      "storage": "1TB(HD) - 128GB(SSD M.2)",
+    high: [
+    {
+      "name": "Acer Aspire Nitro 3 A315-23g-r759",
+      "image": "https://i.imgur.com/TdqUoL6.png",
+      "cpu": "AMD Ryzen 7",
+      "storage": "256GB - SSD M.2",
       "ram": "8GB",
-      "gpu": "GTX 1050 - 4GB",
-      "SO": "Endless OS",
-      "screen": "15,6 IPS Full HD",
+      "gpu": "Radeon RX Vega 10 - 2GB",
+      "SO": "Windows 10 Home",
+      "screen": "15,6 IPS HD",
       "weight": "2.7kg",
-      "price": "4.100,00"
+      "price": "4.600,00"
     },{
-      "name": "Samsung Odyssey",
-      "image": "https://i.imgur.com/ACoYzh0.png",
-      "cpu": "Intel Core I5",
-      "storage": "1TB(HD) - 128GB(SSD M.2)",
+      "name": "Dell Inspiron 3583",
+      "image": "https://i.imgur.com/ww0aPd4.png",
+      "cpu": "Intel Core I7",
+      "storage": "256GB - SSD M.2",
       "ram": "8GB",
-      "gpu": "GTX1050 - 4GB",
+      "gpu": "UHD Graphics 620",
       "SO": "Windows 10",
-      "screen": "15,6 Full HD",
+      "screen": "15,6 LED HD",
       "weight": "2.52kg",
-      "price": "4.300,00"
+      "price": "5.100,00"
     },{
       "name": "Acer Predator Helios 300 PH315-52-748U",
-      "image": "https://i.imgur.com/DXAnG8z.png",
+      "image": "https://i.imgur.com/HKUrokE.png",
       "cpu": "Intel Core I7 9750H",
       "storage": "128GB (SSD) - 1TB (HD)",
       "ram": "16GB",
@@ -103,44 +109,7 @@ const hardware = {
       "SO": "Windows 10",
       "screen": "15,6 IPS Full HD",
       "weight": "2.4kg",
-      "price": "6.900,00"
-    }],
-
-    premium: [{
-      "name": "Samsung Style S50",
-      "image": "https://i.imgur.com/UraZwoJ.png",
-      "cpu": "Intel Core i7",
-      "storage": "256GB SSD",
-      "ram": "8GB",
-      "gpu": "Intel HD Graphics 620",
-      "SO": "Windows 10",
-      "screen": "13,3 IPS Full HD",
-      "weight": "0.86kg",
-      "price": "5.300,00"
-    },
-    {
-      "name": "MacBook Air Apple MVFH2BZ/A",
-      "image": "https://i.imgur.com/sB8EGD6.png",
-      "cpu": "Intel Core I5",
-      "storage": "128GB SSD",
-      "ram": "8GB",
-      "gpu": "Intel Iris Plus 645",
-      "SO": "macOS",
-      "screen": "13,3 Retina",
-      "weight": "1.25kg",
-      "price": "7.000,00"
-    },
-    {
-      "name": "Macbook Pro MUHN2BZ/A",
-      "image": "https://i.imgur.com/TqM1BZo.png",
-      "cpu": "Intel Core I5",
-      "storage": "128GB SSD",
-      "ram": "8GB",
-      "gpu": "Intel Iris Plus 645",
-      "SO": "macOS",
-      "screen": "13,3 Retina",
-      "weight": "1.37kg",
-      "price": "9.000,00"
+      "price": "7.489,00"
     }]
   },
 
@@ -222,17 +191,6 @@ const hardware = {
       "fonte": "600W",
       "price": "R$6200,00"
     },{
-      "image": "https://i.imgur.com/dc319Rf.png",
-      "moba": "A320MH AM4 AMD A320",
-      "cpu": "RYZEN 5 3600X",
-      "storage": "HD 1TB + SSD 480GB",
-      "ram": "16GB DDR4",
-      "gpu": "GEFORCE RTX 2080 SUPER 8GB",
-      "fonte": "650W",
-      "price": "R$8200,00"
-    }],
-
-    premium: [{
       "image": "https://i.imgur.com/KoLWRjD.png",
       "moba": "Z390M LGA 1151",
       "cpu": "Intel I9 9900K",
@@ -241,29 +199,6 @@ const hardware = {
       "gpu": " GEFORCE RTX 2060 6GB",
       "fonte": "650W",
       "price": "R$8500,00"
-    },{
-      "name": "Mac Mini Apple",
-      "image": "https://i.imgur.com/S91dqoH.png",
-      "cpu": "Intel Core i3",
-      "moba": "Apple",
-      "storage": "SSD 256GB",
-      "ram": "8GB DDR4",
-      "gpu": "Intel UHD Graphics 630",
-      "fonte": "500W",
-      "price": "R$6600,00",
-      "so": "Mac OS"
-    },{
-      "name": "iMac Apple",
-      "image": "https://i.imgur.com/Y9SEYPX.png",
-      "cpu": "Intel Core i5",
-      "moba": "Apple",
-      "storage": "HD 1TB",
-      "ram": "8GB DDR4",
-      "gpu": "Radeon Pro 570X 4GB",
-      "fonte": "500W",
-      "price": "R$15000,00",
-      "so": "Mac OS",
-      "screen": "27inch 5k"
     }]
   }
 }
@@ -271,36 +206,28 @@ const hardware = {
 
 export const options = [
   {
-    name: 'Notebook barato',
+    name: 'Notebook Baixo Custo',
     itens: hardware.notebooks.low
   },
   {
-    name: 'Notebook custo benefício',
+    name: 'Notebook Custo Benefício',
     itens: hardware.notebooks.mid
   },
   {
-    name: 'Notebook gamer',
+    name: 'Notebook High-End',
     itens: hardware.notebooks.high
   },
   {
-    name: 'Notebook premium',
-    itens: hardware.notebooks.premium
-  },
-  {
-    name: 'PC barato',
+    name: 'PC Baixo Custo',
     itens: hardware.desktops.low
   },
   {
-    name: 'PC custo benefício',
+    name: 'PC Custo Benefício',
     itens: hardware.desktops.mid
   },
   {
-    name: 'PC gamer',
+    name: 'PC High-End',
     itens: hardware.desktops.high
-  },
-  {
-    name: 'PC premium',
-    itens: hardware.desktops.premium
   }
 ]
 

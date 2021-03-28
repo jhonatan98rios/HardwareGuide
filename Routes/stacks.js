@@ -13,7 +13,7 @@ const options = {
   headerShown: false
 }
 
-function StackNavigation() {
+export function StackNavigation() {
 
   return (
     <Stack.Navigator>
@@ -34,7 +34,13 @@ function StackNavigation() {
           title: 'Recomendações',
         }}
       />
+    </Stack.Navigator>
+  );
+}
 
+export function PopularStackNavigation(){
+  return (
+    <Stack.Navigator>
       <Stack.Screen 
         name="Popular"
         component={Popular}
@@ -55,5 +61,3 @@ function StackNavigation() {
     </Stack.Navigator>
   );
 }
-
-export default StackNavigation

@@ -3,20 +3,23 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   flex: 1;
   align-items: center;
-  background-color: #000000;
   justify-content: center;
+  background-color: #0a0a1a;
 `
 
 export const View = styled.View`
   width: 90%;
-  height: 300px;
+  height: 400px;
   align-items: center;
-  border-radius: 8px;
+  justify-content: center;
+  border-radius: 24px;
+  border-color: #4CC392;
+  border-width: 1px;
 `
 
 export const Title = styled.Text`
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: 16px 0px 16px;
   color: #4CC392;
   font-size: 18px;

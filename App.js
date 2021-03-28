@@ -9,27 +9,25 @@ const productionID = 'ca-app-pub-1739197497968733/3971143171';
 
 const adUnitID = Constants.isDevice && !__DEV__ ? productionID : testID;
 
-import { AdMobBanner, setTestDeviceIDAsync } from 'expo-ads-admob';
+import { AdMobBanner } from 'expo-ads-admob';
 
 import TabsNavigation from './Routes/tabs'
 
 export default function App() {
   return (
-    <>
+    <View style={{ flex: 1, backgroundColor: '#0a0a1a' }}>
       <AdMobBanner
         bannerSize="fullBanner"
         adUnitID={adUnitID}
         setTestDeviceIDAsync
         servePersonalizedAds
         onDidFailToReceiveAdWithError={(err) => console.log(err)} 
-        style={{
-          width: '100%'
-        }}
+        style={{ width: '100%', marginTop: 24 }}
       />
 
     <NavigationContainer>
       <TabsNavigation />
     </NavigationContainer>
-    </>
+    </View>
   );
 }

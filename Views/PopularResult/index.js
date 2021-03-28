@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Title } from './style.js'
+import { Container, Title, Disclaimer } from './style.js'
 import CardSlider from '../../Components/CardSlider'
 
 export default function PopularResults({route}) {
@@ -10,6 +10,7 @@ export default function PopularResults({route}) {
     <Container>
       <Title> Veja as sugestões que separamos para você </Title>
       <CardSlider content={itens} />
+      <Disclaimer> * Os preços podem váriar  de acordo com o mercado. Os preços ilustrados são somente para comparação. </Disclaimer>
     </Container>
   );
 }
