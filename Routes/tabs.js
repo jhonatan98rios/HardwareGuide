@@ -10,11 +10,11 @@ const Tab = createBottomTabNavigator();
 
 const iconSelector = function(name){
   switch (name) {
-    case 'Personalizado':
-      return 'laptop';
     case 'Recomendados':
       return 'star';
-    case 'Sobre':
+    case 'Personalizado':
+      return 'laptop';
+    case 'Informações':
       return 'info';
     case 'Requerimentos':
       return 'game-controller';
@@ -65,7 +65,7 @@ function TabsNavigation() {
       />
 
       <Tab.Screen
-        name="Sobre"
+        name="Informações"
         component={Info}
       />
 

@@ -74,11 +74,6 @@ function TabsNavigation() {
       /> */}
 
       <Tab.Screen
-        name="Sobre"
-        component={Info}
-      />
-
-      <Tab.Screen
         name="Recomendador"
         component={StackNavigation}
       />
