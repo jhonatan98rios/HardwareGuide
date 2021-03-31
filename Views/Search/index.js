@@ -9,6 +9,7 @@ export default function Search({ navigation }) {
   function next(){
     navigation.push('Result', { sample })
     setSample('')
+    setActive(false)
   }
 
   function eventHandler(e){
