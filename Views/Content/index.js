@@ -16,7 +16,7 @@ export default function Info({ route }) {
             <Content key={index}>
               { el.subtitle && <Title> {el.subtitle} </Title> }
               { el.image && <Image source={{ uri: el.image }} /> }
-              { el.description && <Text> {el.description} {el.description} </Text>}
+              { el.description && <Text> {el.description} </Text>}
             </Content>
           ))}
 

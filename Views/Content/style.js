@@ -23,7 +23,7 @@ export const Text = styled(Title)`
   font-weight: normal;
   color: #ffffff;
   line-height: 18px;
-  margin: 0px auto;
+  margin: 0px auto 16px;
 `
 
 export const Image = styled.Image`
