@@ -4,17 +4,21 @@ import { Container, Title, Text, TextInput, Button, Disclaimer } from './style.j
 export default function Search({ navigation }) {
 
   const [ sample, setSample ] = useState('')
+  const [ active, setActive ] = useState(false)
 
   function next(){
-    if(sample.length >= 3){ 
-      navigation.push('Result', { sample })
-      setSample('')
-    }
+    navigation.push('Result', { sample })
+    setSample('')
   }
 
   function eventHandler(e){
-    if(e.nativeEvent.key == "Enter"){
-      next();
+
+    if(sample.replace(/[0-9]| /g, '').length >= 3){
+      setActive(true)
+      if(e.nativeEvent.key == "Enter") next();
+      
+    } else {
+      setActive(false)
     }
   }
 
@@ -33,7 +37,7 @@ export default function Search({ navigation }) {
         autoCapitalize="sentences"
       />
 
-      {sample.length >= 3 && (
+      {active && (
         <Button onPress={() => next(sample)}> 
           <Text>
             Confirmar

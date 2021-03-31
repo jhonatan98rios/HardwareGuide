@@ -35,7 +35,7 @@ const hardware = {
       "SO": "Windows 10",
       "screen": "Tela 15,6' LED HD",
       "weight": "2kg",
-      "price": "R$2800,00",
+      "price": "2800,00",
     }],
 
     mid: [
@@ -122,7 +122,7 @@ const hardware = {
       "ram": "4GB DDR4",
       "gpu": "Radeon Vega 8 Graphics",
       "fonte": "500W",
-      "price": "R$1800,00"
+      "price": "1800,00"
     },{
       "image": "https://i.imgur.com/IbvrFj5.png",
       "moba": "H310M LGA 1151",
@@ -131,7 +131,7 @@ const hardware = {
       "ram": "8GB DDR4",
       "gpu": "RADEON RX550 2GB",
       "fonte": "500W",
-      "price": "R$2400,00"
+      "price": "2400,00"
     },{
       "image": "https://i.imgur.com/rBFW8zs.png",
       "moba": "H310M LGA 1151",
@@ -140,7 +140,7 @@ const hardware = {
       "ram": "8GB DDR4",
       "gpu": "RADEON RX550 2GB",
       "fonte": "500W",
-      "price": "R$2800,00"
+      "price": "2800,00"
     }],
 
     mid: [{
@@ -151,7 +151,7 @@ const hardware = {
       "ram": "8GB DDR4",
       "gpu": "RADEON RX550 2GB",
       "fonte": "500W",
-      "price": "R$3600,00"
+      "price": "3600,00"
     },{
       "image": "https://i.imgur.com/0ulDArM.png",
       "moba": "A320MH AM4 AMD A320",
@@ -160,7 +160,7 @@ const hardware = {
       "ram": "8GB DDR4",
       "gpu": "GEFORCE GTX 1650 SUPER 4GB",
       "fonte": "500W",
-      "price": "R$4100,00"
+      "price": "4100,00"
     },{
       "image": "https://i.imgur.com/FXYLT3k.png",
       "moba": "H310M LGA 1151",
@@ -169,7 +169,7 @@ const hardware = {
       "ram": "8GB DDR4",
       "gpu": "GEFORCE GTX 1660 6GB OC",
       "fonte": "500W",
-      "price": "R$4400,00"
+      "price": "4400,00"
     }],
 
     high: [{
@@ -180,7 +180,7 @@ const hardware = {
       "ram": "16GB DDR4",
       "gpu": "GEFORCE GTX 1660 6GB OC",
       "fonte": "500W",
-      "price": "R$5500,00"
+      "price": "5500,00"
     },{
       "image": "https://i.imgur.com/RvPnJZ0.png",
       "moba": "H310M LGA 1151",
@@ -189,7 +189,7 @@ const hardware = {
       "ram": "16GB DDR4",
       "gpu": "GEFORCE RTX 2060 SUPER 8GB",
       "fonte": "600W",
-      "price": "R$6200,00"
+      "price": "6200,00"
     },{
       "image": "https://i.imgur.com/KoLWRjD.png",
       "moba": "Z390M LGA 1151",
@@ -198,7 +198,7 @@ const hardware = {
       "ram": "16GB DDR4",
       "gpu": " GEFORCE RTX 2060 6GB",
       "fonte": "650W",
-      "price": "R$8500,00"
+      "price": "8500,00"
     }]
   }
 }

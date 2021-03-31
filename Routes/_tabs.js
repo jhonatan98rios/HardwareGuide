@@ -1,30 +1,32 @@
 import React from 'react';
+import { View } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/Entypo';
 
-import { StackNavigation, PopularStackNavigation, LearnStackNavigation } from './stacks'
-
+import { StackNavigation, PopularStackNavigation } from './stacks'
 import Info from '../Views/Info'
+
+import { IconTabRound } from './style'
 
 const Tab = createBottomTabNavigator();
 
 const iconSelector = function(name){
   switch (name) {
-    case 'Personalizado':
+    case 'Recomendador':
       return 'laptop';
-    case 'Recomendados':
+    case 'Popular':
       return 'star';
     case 'Sobre':
       return 'info';
     case 'Requerimentos':
       return 'game-controller';
-    case 'Aprenda':
+    case 'Introduction':
       return 'graduation-cap';
   }
 }
 
 const tabBarOptions = {
-  activeTintColor: '#8257E6',
+  activeTintColor: '#4CC392',
   inactiveTintColor: '#aaa',
   style: {
     backgroundColor: '#0F0F1F', //'#202024',
@@ -33,6 +35,15 @@ const tabBarOptions = {
     height: 56,
   }
 }
+
+
+const AboutTabIcon = () => (
+  <View>
+    <IconTabRound>
+      <Icon name="info" size={26} color='#FFF'/>
+    </IconTabRound>
+  </View>
+);
 
 
 function TabsNavigation() {
@@ -50,23 +61,26 @@ function TabsNavigation() {
     >
 
       <Tab.Screen
-        name="Recomendados"
+        name="Popular"
         component={PopularStackNavigation}
       />
 
-      <Tab.Screen
-        name="Personalizado"
-        component={StackNavigation}
-      />
-
-      <Tab.Screen
-        name="Aprenda"
-        component={LearnStackNavigation}
-      />
+      {/* <Tab.Screen
+        name="Sobre"
+        component={Info}
+        options={() => ({
+          tabBarIcon: AboutTabIcon
+        })}
+      /> */}
 
       <Tab.Screen
         name="Sobre"
         component={Info}
+      />
+
+      <Tab.Screen
+        name="Recomendador"
+        component={StackNavigation}
       />
 
     </Tab.Navigator>

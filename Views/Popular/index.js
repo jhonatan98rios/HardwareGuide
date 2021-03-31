@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, ScrollView, Title, View, TouchableOpacity, Text, Disclaimer} from './style.js'
+import { Container, ScrollView, Title, View, TouchableOpacity, Text} from './style.js'
 import { options } from '../../Mockdata/Popular'
 
 export default function Popular({ navigation }) {
@@ -13,7 +13,7 @@ export default function Popular({ navigation }) {
   return (
     <Container>
       <View>
-        <Title> Selecione a opção que procura </Title>
+        <Title> Veja nossas opções recomendadas </Title>
 
         <ScrollView>
           { options.map((option, index) => (

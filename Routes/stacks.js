@@ -7,6 +7,9 @@ import Result from '../Views/Result'
 import Popular from '../Views/Popular'
 import PopularResult from '../Views/PopularResult'
 
+import Learn from '../Views/Learn'
+import Content from '../Views/Content'
+
 const Stack = createStackNavigator();
 
 const options = {
@@ -14,7 +17,6 @@ const options = {
 }
 
 export function StackNavigation() {
-
   return (
     <Stack.Navigator>
       <Stack.Screen 
@@ -44,19 +46,31 @@ export function PopularStackNavigation(){
       <Stack.Screen 
         name="Popular"
         component={Popular}
-        options={{
-          ...options,
-          title: 'Vitrine',
-        }}
+        options={{...options}}
       />
 
       <Stack.Screen 
         name="PopularResult"
         component={PopularResult}
-        options={{
-          ...options,
-          title: 'Computadores populares',
-        }}
+        options={{...options}}
+      />
+    </Stack.Navigator>
+  );
+}
+
+export function LearnStackNavigation(){
+  return (
+    <Stack.Navigator>
+      <Stack.Screen 
+        name="Aprenda"
+        component={Learn}
+        options={{...options}}
+      />
+
+      <Stack.Screen 
+        name="Conteudo"
+        component={Content}
+        options={{...options}}
       />
     </Stack.Navigator>
   );
