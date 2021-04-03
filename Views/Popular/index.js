@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, ScrollView, Title, View, TouchableOpacity, Text} from './style.js'
 import { options } from '../../Mockdata/Popular'
 

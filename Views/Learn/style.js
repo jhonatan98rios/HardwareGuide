@@ -3,21 +3,28 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   flex: 1;
   align-items: center;
-  justify-content: center;
   background-color: #0a0a1a;
+  justify-content: flex-end;
+`
+
+export const View = styled.View`
+  width: 100%;
+  height: 95%;
+  align-items: center;
+  border-radius: 8px;
 `
 
 export const Title = styled.Text`
   text-align: center;
-  width: 90%;
-  margin: 16px auto;
+  width: 80%;
+  margin: 4px auto 0px;
   color: #4CC392;
   font-size: 18px;
   font-weight: bold;
   text-shadow: 1px 1px 2px #000;
 `
 
-export const Text = styled(Title)`
+export const Text = styled.Text`
   font-size: 14px;
   font-weight: normal;
   color: #ffffff;
@@ -27,8 +34,8 @@ export const Text = styled(Title)`
 
 export const ScrollView = styled.ScrollView`
   width: 100%;
-  margin-top: 16px;
-  max-height: 85%;
+  margin-top: 32px;
+  max-height: 90%;
 `
 
 export const TouchableOpacity = styled.TouchableOpacity`
@@ -40,4 +47,5 @@ export const TouchableOpacity = styled.TouchableOpacity`
   margin-bottom: 12px;
   border-radius: 8px;
   justify-content: center;
+  align-items: center;
 `

@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react';
-import { View, ActivityIndicator } from 'react-native'
-import { Container, Title, Text, TouchableOpacity, ScrollView } from './style.js'
+import { ActivityIndicator } from 'react-native'
+import { Container, View, Title, Text, TouchableOpacity, ScrollView } from './style.js'
 
 import { translate } from '../../locales'
 
