@@ -17,7 +17,7 @@ export const View = styled.View`
 export const Title = styled.Text`
   text-align: center;
   width: 80%;
-  margin: 4px auto 0px;
+  margin: 4px auto 32px;
   color: #4CC392;
   font-size: 18px;
   font-weight: bold;
@@ -34,7 +34,6 @@ export const Text = styled.Text`
 
 export const ScrollView = styled.ScrollView`
   width: 100%;
-  margin-top: 32px;
   max-height: 90%;
 `
 

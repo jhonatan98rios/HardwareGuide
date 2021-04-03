@@ -1,3 +1,4 @@
+import Constants from 'expo-constants';
 import axios from 'axios'
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator } from 'react-native'
@@ -5,9 +6,29 @@ import { Container, View, Title, Text, TouchableOpacity, ScrollView } from './st
 
 import { translate } from '../../locales'
 
+import { AdMobInterstitial } from 'expo-ads-admob';
+
+const testID = 'ca-app-pub-3940256099942544/1033173712';
+const productionID = 'ca-app-pub-1739197497968733/1150081283';
+const adUnitID = Constants.isDevice && !__DEV__ ? productionID : testID;
+
 export default function Info({ navigation }) {
 
   const [ data, setData ] = useState(null)
+
+  useEffect(() => {
+    async function showInterstitial(){
+      try{
+        await AdMobInterstitial.requestAdAsync();
+        await AdMobInterstitial.showAdAsync();
+      }
+      catch(e){
+        console.log(e);
+      }    
+    }
+    AdMobInterstitial.setAdUnitID(adUnitID); 
+    showInterstitial()
+  }, [])
 
   useEffect(()=>{
     axios.post('https://smart-gadget-web.herokuapp.com/api/learn')

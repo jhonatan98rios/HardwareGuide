@@ -23,7 +23,7 @@ export default {
 
   search: {
     title: 'Me fale sobre o computador que você precisa',
-    disclaimer: '* As frases serão armazenadas e posteriormente utilizadas no treino do algoritmo',
+    disclaimer: '* O algoritmo está em fase de treino, e pode apresentar inconsistências. As frases serão armazenadas e posteriormente utilizadas no treino do algoritmo.',
     placeholder: 'Procuro um PC para...'
   },
 

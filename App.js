@@ -1,11 +1,12 @@
+import Constants from 'expo-constants';
 import 'react-native-gesture-handler';
+
 import React from 'react';
 import { View, StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import Constants from 'expo-constants';
 
 const testID = 'ca-app-pub-3940256099942544/6300978111';
-const productionID = 'ca-app-pub-1739197497968733/3971143171';
+const productionID = 'ca-app-pub-1739197497968733/5472469678';
 
 const adUnitID = Constants.isDevice && !__DEV__ ? productionID : testID;
 
