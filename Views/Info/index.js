@@ -1,13 +1,14 @@
 import React from 'react';
 import { Container, Text, Title, View } from './style.js'
+import { translate } from '../../locales'
 
 export default function Info() {
   return (
     <Container>   
       <View>
-        <Title>  Encontre o computador ideal para você!  </Title>
-        <Text> Através de inteligência artifícial e processamento de linguagem natural, o Guia de Hardware é capaz de identificar qual hardware e software se encaixam em suas necessidades. </Text>
-        <Text> Para isso, o sistema faz uso de todo o poder computacional disponível na núvem, além das melhores práticas de desenvolvimento, arquitetura e tecnologias disponíveis no mercado. </Text>
+        <Title> {translate('info.title')} </Title>
+        <Text> {translate('info.description_a')} </Text>
+        <Text> {translate('info.description_b')} </Text>
       </View>
     </Container>
   );

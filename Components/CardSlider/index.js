@@ -5,6 +5,8 @@ import Carousel from 'react-native-snap-carousel';
 import Icon from 'react-native-vector-icons/Entypo';
 import { Box, Description, Image, Bold, Price, Container } from './style'
 
+import { translate } from '../../locales'
+
 function Card({item}) {
   return (
     <Box>
@@ -13,14 +15,14 @@ function Card({item}) {
       
       <Description>
         { item.name && <Bold> {item.name} </Bold> }
-        { item.moba && <Text> Placa Mãe: {item.moba} </Text> }
-        <Text> CPU: {item.cpu} </Text>
-        <Text> Armazenamento: {item.storage} </Text>
-        <Text> Ram: {item.ram} </Text>
-        <Text> GPU: {item.gpu} </Text>
-        { item.screen && <Text> Tela: {item.screen } </Text> }
-        <Text> Sistema: {item.so || 'Windows ou Linux'} </Text>
-        <Price> Valor aproximado: R$ {item.price} </Price>
+        { item.moba && <Text> {translate('card_slider.moba')}: {item.moba} </Text> }
+        <Text> {translate('card_slider.cpu')}: {item.cpu} </Text>
+        <Text> {translate('card_slider.storage')}: {item.storage} </Text>
+        <Text> {translate('card_slider.ram')}: {item.ram} </Text>
+        <Text> {translate('card_slider.gpu')}: {item.gpu} </Text>
+        { item.screen && <Text> {translate('card_slider.screen')}: {item.screen } </Text> }
+        <Text> {translate('card_slider.so')}: {item.so || 'Windows ou Linux'} </Text>
+        <Price> {translate('card_slider.price')}: R$ {item.price} </Price>
       </Description>
     </Box>
   );

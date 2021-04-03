@@ -5,6 +5,8 @@ import { Container, Title, Disclaimer } from './style.js'
 
 import CardSlider from '../../Components/CardSlider'
 
+import { translate } from '../../locales'
+
 export default function Result({ route, navigation }) {
 
   const { sample } = route.params
@@ -28,16 +30,16 @@ export default function Result({ route, navigation }) {
       !content && (
         <Container>
           <ActivityIndicator color="#8257E6" size="large" /> 
-          <Text style={{ color: '#fff', marginTop: 24 }}> Aguarde enquanto processamos seu pedido </Text>
+          <Text style={{ color: '#fff', marginTop: 24 }}> {translate('result.loading')} </Text>
         </Container>
       )
     }
   {
       content && (
         <Container>
-          <Title> Veja as sugestões que separamos para você </Title>
+          <Title> {translate('result.title')} </Title>
           <CardSlider content={content} /> 
-          <Disclaimer> * Os preços podem váriar  de acordo com o mercado. Os preços ilustrados são somente para comparação. </Disclaimer>
+          <Disclaimer> {translate('result.disclaimer')} </Disclaimer>
         </Container>
       )
     }

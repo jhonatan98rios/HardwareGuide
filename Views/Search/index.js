@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Title, Text, TextInput, Button, Disclaimer } from './style.js'
 
+import { translate } from '../../locales'
+
 export default function Search({ navigation }) {
 
   const [ sample, setSample ] = useState('')
@@ -25,12 +27,12 @@ export default function Search({ navigation }) {
 
   return (
     <Container>
-      <Title>Me fale sobre o computador que você precisa</Title>
+      <Title>{translate('search.title')}</Title>
 
       <TextInput
         onChangeText={text => setSample(text)}
         onKeyPress={ e => eventHandler(e)}
-        placeholder={"Procuro um PC para..."}
+        placeholder={translate('search.placeholder')}
         placeholderTextColor={"#999999"}
         returnKeyType="done"
         multiline={true}
@@ -47,7 +49,7 @@ export default function Search({ navigation }) {
       )}
 
       <Disclaimer>
-        * As frases serão armazenadas e posteriormente utilizadas no treino do algoritmo  
+        {translate('search.disclaimer')}
       </Disclaimer>
     </Container>
   );

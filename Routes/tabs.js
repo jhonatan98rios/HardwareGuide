@@ -6,7 +6,10 @@ import { StackNavigation, PopularStackNavigation, LearnStackNavigation } from '.
 
 import Info from '../Views/Info'
 
+import { translate } from '../locales'
+
 const Tab = createBottomTabNavigator();
+
 
 const iconSelector = function(name){
   switch (name) {
@@ -16,10 +19,22 @@ const iconSelector = function(name){
       return 'laptop';
     case 'Informações':
       return 'info';
-    case 'Requerimentos':
-      return 'game-controller';
     case 'Aprenda':
       return 'graduation-cap';
+  }
+}
+
+
+const labelSelector = function(name){
+  switch (name) {
+    case 'Recomendados':
+      return translate('tab.recommended');
+    case 'Personalizado':
+      return translate('tab.custom');
+    case 'Informações':
+      return translate('tab.info');
+    case 'Aprenda':
+      return translate('tab.learn');
   }
 }
 
@@ -45,7 +60,8 @@ function TabsNavigation() {
         tabBarIcon: ({ color, size }) => {
           let iconName = iconSelector(route.name)
           return <Icon name={iconName} size={size} color={color} />;
-        }
+        },
+        tabBarLabel: labelSelector(route.name),
       })}
     >
 

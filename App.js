@@ -28,7 +28,7 @@ export default function App() {
         setTestDeviceIDAsync
         servePersonalizedAds
         onDidFailToReceiveAdWithError={(err) => console.log(err)} 
-        style={{ width: '100%', marginTop: 24 }}
+        style={{ width: '100%'}}
       />
 
     <NavigationContainer>

@@ -27,10 +27,9 @@ export const Text = styled(Title)`
 `
 
 export const Image = styled.Image`
-  padding: 8px;
   width: 110px;
   height: 100px;
-  margin: 8px auto;
+  margin: -8px auto 8px;
 `
 
 export const Content = styled.View`
@@ -38,6 +37,6 @@ export const Content = styled.View`
   border-radius: 24px;
   border-color: #4CC392;
   border-width: 1px;
-  padding: 8px;
+  padding: 24px 8px 8px;
   margin: 16px auto;
 `

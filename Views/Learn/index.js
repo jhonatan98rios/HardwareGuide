@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { View, ActivityIndicator } from 'react-native'
 import { Container, Title, Text, TouchableOpacity, ScrollView } from './style.js'
 
+import { translate } from '../../locales'
 
 export default function Info({ navigation }) {
 
@@ -23,7 +24,7 @@ export default function Info({ navigation }) {
   return (
     <Container>   
       <View style={{width:'100%'}}>
-        <Title> Aprenda sobre hardware </Title>
+        <Title> {translate('learn.title')} </Title>
 
         { data && <ScrollView>
           { data.map((item, index) => (

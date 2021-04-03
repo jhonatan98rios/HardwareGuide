@@ -15,7 +15,7 @@ export default function Info({ route }) {
           { item.content.map((el, index) => (
             <Content key={index}>
               { el.subtitle && <Title> {el.subtitle} </Title> }
-              { el.image && <Image source={{ uri: el.image }} /> }
+              { el.image && <Image source={{ uri: el.image }} resizeMode="contain" /> }
               { el.description && <Text> {el.description} </Text>}
             </Content>
           ))}

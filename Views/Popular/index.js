@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Container, ScrollView, Title, View, TouchableOpacity, Text} from './style.js'
 import { options } from '../../Mockdata/Popular'
 
+import { translate } from '../../locales'
+
 export default function Popular({ navigation }) {
 
   function navigate(itens){
@@ -13,7 +15,7 @@ export default function Popular({ navigation }) {
   return (
     <Container>
       <View>
-        <Title> Veja nossas opções recomendadas </Title>
+        <Title> {translate('popular.title')} </Title>
 
         <ScrollView>
           { options.map((option, index) => (

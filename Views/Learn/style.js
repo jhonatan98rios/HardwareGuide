@@ -27,7 +27,8 @@ export const Text = styled(Title)`
 
 export const ScrollView = styled.ScrollView`
   width: 100%;
-  margin-top: 32px;
+  margin-top: 16px;
+  max-height: 85%;
 `
 
 export const TouchableOpacity = styled.TouchableOpacity`
