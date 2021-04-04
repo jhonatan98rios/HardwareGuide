@@ -16,7 +16,7 @@ export default function Result({ route, navigation }) {
     if(!sample) {
       navigation.push('search')
     }else{
-      axios.post('https://smart-gadget-web.herokuapp.com/api/smart', {
+      axios.post(translate('result.endpoint'), {
         text: sample, 
       })
       .then(response => setContent(response.data))

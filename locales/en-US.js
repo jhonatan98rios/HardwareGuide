@@ -14,7 +14,8 @@ export default {
   },
 
   learn: {
-    title: 'Learn about hardware'
+    title: 'Learn about hardware',
+    endpoint: 'https://smart-gadget-web.herokuapp.com/api/learn_en'
   },
 
   popular: {
@@ -30,7 +31,8 @@ export default {
   result: {
     loading: 'Please wait while we process your order',
     title: 'See the suggestions that we have separated for youê',
-    disclaimer: '* Prices may vary according to the market. The prices shown are for comparison only.'
+    disclaimer: '* Prices may vary according to the market. The prices shown are for comparison only.',
+    endpoint: 'https://smart-gadget-web.herokuapp.com/api/smart_en'
   },
 
   popular_result: {
@@ -46,7 +48,8 @@ export default {
     gpu: 'GPU',
     screen: 'Screen',
     so: 'System',
-    price: 'Approximate value'
+    price: 'Approximate value',
+    currency: '$'
   }
 
 }

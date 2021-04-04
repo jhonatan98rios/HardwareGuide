@@ -31,7 +31,7 @@ export default function Info({ navigation }) {
   }, [])
 
   useEffect(()=>{
-    axios.post('https://smart-gadget-web.herokuapp.com/api/learn')
+    axios.post(translate('learn.endpoint'))
     .then(response => setData(response.data))
     .catch(reject => console.log(reject))
   }, [])

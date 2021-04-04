@@ -26,7 +26,7 @@ I18n.translations = {
   'pt_BR': pt,
 }
 
-// Função responsável por verificar se o idioma atual do divice está sendo suportado, caso não ele irá setar como 'en_US'
+// Função responsável por verificar se o idioma atual do device está sendo suportado, caso não ele irá setar como 'en_US'
 const setLanguageToI18n = () => {
   const language = getLanguageByDevice()
   const translateNormalize = normalizeTranslate[language]
@@ -39,3 +39,5 @@ const setLanguageToI18n = () => {
 setLanguageToI18n()
 
 export const translate = key => I18n.t(key)
+
+export const language = getLanguageByDevice()

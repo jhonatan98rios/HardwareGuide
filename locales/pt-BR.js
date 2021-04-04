@@ -14,7 +14,8 @@ export default {
   },
 
   learn: {
-    title: 'Aprenda sobre hardware'
+    title: 'Aprenda sobre hardware',
+    endpoint: 'https://smart-gadget-web.herokuapp.com/api/learn'
   },
 
   popular: {
@@ -30,7 +31,8 @@ export default {
   result: {
     loading: 'Aguarde enquanto processamos seu pedido',
     title: 'Veja as sugestões que separamos para você',
-    disclaimer: '* Os preços podem váriar  de acordo com o mercado. Os preços ilustrados são somente para comparação.'
+    disclaimer: '* Os preços podem váriar  de acordo com o mercado. Os preços ilustrados são somente para comparação.',
+    endpoint: 'https://smart-gadget-web.herokuapp.com/api/smart'
   },
 
   popular_result: {
@@ -46,8 +48,7 @@ export default {
     gpu: 'GPU',
     screen: 'Tela',
     so: 'Sistema',
-    price: 'Valor aproximado'
+    price: 'Valor aproximado',
+    currency: 'R$'
   }
-
-
 }

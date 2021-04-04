@@ -1,116 +1,115 @@
 const hardware = {
   notebooks: {
     low: [
-    {
-      "name": "Chromebook Samsung XE501C13-AD3BR",
-      "image": "https://i.imgur.com/B3mvhI0.png",
-      "cpu": "Intel Celeron N3060",
-      "storage": "32 GB - SSD",
-      "ram": "4GB",
-      "gpu": "Intel HD Graphics 400",
-      "SO": "Google Chrome OS",
-      "screen": "Tela 11,6' LED HD",
-      "weight": "1,6kg",
-      "price": "1.800,00"
-    },
-    {
-      "name": "Lenovo Ideapad S145",
-      "image": "https://i.imgur.com/QKxOZJA.png",
-      "cpu": "Intel Celeron N4020",
-      "storage": "128GB - SSD",
-      "ram": "4GB",
-      "gpu": "Intel HD Graphics 600",
-      "SO": "Windows 10",
-      "screen": "15.6” LED HD",
-      "weight": "1,85kg",
-      "price": "2.400,00"
-    },
-    {
-      "name": "Dell Inspiron I15-3583-AS05P",
-      "image": "https://i.imgur.com/ww0aPd4.png",
-      "cpu": "Pentium Gold 5405U",
-      "storage": "128GB - SSD",
-      "ram": "4GB DDR4",
-      "gpu": "Intel HD Graphics 600",
-      "SO": "Windows 10",
-      "screen": "Tela 15,6' LED HD",
-      "weight": "2kg",
-      "price": "2800,00",
-    }],
+      {
+        "name": "MULTILASER - LEGACY BOOK",
+        "image": "https://i.imgur.com/dIVG2pz.png",
+        "moba": "MULTILASER",
+        "cpu": "Pentium",
+        "storage": "64 GB eMMC",
+        "ram": "4GB",
+        "gpu": "Intel UHD Graphics 620",
+        "price": "1.600,00",
+        "screen": "Tela 14 - 1366x768 HD"
+      },
+      {
+        "name": "SAMSUNG FLASH",
+        "image": "https://i.imgur.com/PuuVYuS.png",
+        "moba": "Samsung",
+        "cpu": "Celeron N4000",
+        "storage": "128GB e.MMC",
+        "ram": "4GB DDR4",
+        "gpu": "Intel UHD Graphics 600",
+        "price": "2.600,00",
+        "screen": "Tela 13,3 LED Full HD"
+      },
+      {
+        "name": "LENOVO IDEAPAD S145",
+        "image": "https://i.imgur.com/E0xosMc.png",
+        "moba": "LENOVO",
+        "cpu": " R3-3200U",
+        "storage": "256GB SSD",
+        "ram": "8GB DDR4",
+        "gpu": "Integrada AMD Radeon™ RX Vega 3",
+        "price": "3.100,00",
+        "screen": "Tela 15,6 - 1366 x 768 - Antirreflexo"
+      }
+    ],
 
     mid: [
-    {
-      "name": "Lenovo Ideapad S145",
-      "image": "https://i.imgur.com/QKxOZJA.png",
-      "cpu": "Intel Core i3",
-      "storage": "128GB - SSD",
-      "ram": "4GB",
-      "gpu": "Intel UHD Graphics 620",
-      "SO": "Windows 10",
-      "screen": "15.6 LED HD",
-      "weight": "1,85kg",
-      "price": "3.300,00"
-    },
-    {
-      "name": "Acer Aspire 3 A315-56-34a9",
-      "image": "https://i.imgur.com/tkICaGs.png",
-      "cpu": "Intel Core i3",
-      "storage": "1TB - HD",
-      "ram": "8GB",
-      "gpu": "Intel UHD Graphics 620",
-      "SO": "Windows 10 Home",
-      "screen": "15.6 LED HD",
-      "weight": "2.03kg",
-      "price": "3.500,00"
-    },
-    {
-      "name": "Acer Aspire 3 A315-23",
-      "image": "https://i.imgur.com/tkICaGs.png",
-      "cpu": "AMD Ryzen 5 3500U",
-      "storage": "1TB - HD",
-      "ram": "12GB",
-      "gpu": "AMD Radeon Vega 8",
-      "SO": "Windows 10 Home",
-      "screen": "15,6 LED HD",
-      "weight": "2,03kg",
-      "price": "4.000,00"
-    }],
+      {
+        "name": "ACER ASPIRE 3",
+        "image": "https://i.imgur.com//pTHNzMM.png",
+        "moba": "ACER",
+        "cpu": "Ryzen R5 3500U",
+        "storage": "256GB SSD",
+        "ram": "8GB",
+        "gpu": "AMD Radeon 625 2GB GDDR5",
+        "price": "3.600,00",
+        "screen": "Tela 15,6 - 1366x768 HD"
+      },
+      {
+        "name": "ACER ASPIRE 3",
+        "image": " https://i.imgur.com/FjUKe6i.png",
+        "moba": "ACER",
+        "cpu": " Intel Core i5 10ª geração",
+        "storage": "256GB SSD",
+        "ram": "8GB DDR4",
+        "gpu": "Nvidea MX250 com 2GB GDDR5",
+        "price": "5.000,00",
+        "screen": "Tela 13,3 LED Full HD"
+      },
+      {
+        "name": "LG GRAM",
+        "image": " https://i.imgur.com/LT44NV2.png",
+        "moba": "LENOVO",
+        "cpu": "Intel Core i7-5950HQ",
+        "storage": "256GB SSD",
+        "ram": "8GB DDR4",
+        "gpu": "Intel UHD Graphics",
+        "price": "5.200,00",
+        "screen": "Tela 14 - Full HD - 1920 x 1080"
+      }
+    ],
 
     high: [
-    {
-      "name": "Acer Aspire Nitro 3 A315-23g-r759",
-      "image": "https://i.imgur.com/TdqUoL6.png",
-      "cpu": "AMD Ryzen 7",
-      "storage": "256GB - SSD M.2",
-      "ram": "8GB",
-      "gpu": "Radeon RX Vega 10 - 2GB",
-      "SO": "Windows 10 Home",
-      "screen": "15,6 IPS HD",
-      "weight": "2.7kg",
-      "price": "4.600,00"
-    },{
-      "name": "Dell Inspiron 3583",
-      "image": "https://i.imgur.com/ww0aPd4.png",
-      "cpu": "Intel Core I7",
-      "storage": "256GB - SSD M.2",
-      "ram": "8GB",
-      "gpu": "UHD Graphics 620",
-      "SO": "Windows 10",
-      "screen": "15,6 LED HD",
-      "weight": "2.52kg",
-      "price": "5.100,00"
-    },{
-      "name": "Acer Predator Helios 300 PH315-52-748U",
-      "image": "https://i.imgur.com/HKUrokE.png",
-      "cpu": "Intel Core I7 9750H",
-      "storage": "128GB (SSD) - 1TB (HD)",
-      "ram": "16GB",
-      "gpu": "RTX 1660ti - 6GB",
-      "SO": "Windows 10",
-      "screen": "15,6 IPS Full HD",
-      "weight": "2.4kg",
-      "price": "7.489,00"
-    }]
+      {
+        "name": "Asus M570DD-DM122T",
+        "image": "https://i.imgur.com/DmvKfaN.png",
+        "moba": "Asus",
+        "cpu": "Ryzen 5 3500U",
+        "storage": "HD 1TB",
+        "ram": "8GB DDR4",
+        "gpu": "NVIDIA GTX1050 4GB",
+        "fonte": "Bateria de 4480mAh",
+        "price": "5200,00",
+        "screen": "Tela 15,6"
+      },
+      {
+        "name": "Nitro 5",
+        "image": "https://i.imgur.com/lbKwAgh.png",
+        "moba": "Acer",
+        "cpu": "AMD Ryzen 7-3750H",
+        "storage": "HD 1TB, SSD 128GB",
+        "ram": "8GB DDR4",
+        "gpu": "GeForce GTX 1650 4GB",
+        "fonte": "Bateria de 4 células 55Wh 3220 mAh",
+        "price": "5.600,00",
+        "screen": "Tela 15,6"
+      },
+      {
+        "name": "Ideapad Gaming 3",
+        "image": "https://i.imgur.com/TXSmCXY.png",
+        "moba": "Lenovo",
+        "cpu": "Intel Core i7-10750H",
+        "storage": "SSD 256GB",
+        "ram": "8GB DDR4",
+        "gpu": "GTX 1650 4GB",
+        "fonte": "Bateria de 45Wh",
+        "price": "7000,00",
+        "screen": "Tela 15,6"
+      }
+    ]
   },
 
   desktops: {
@@ -123,7 +122,7 @@ const hardware = {
       "gpu": "Radeon Vega 8 Graphics",
       "fonte": "500W",
       "price": "1800,00"
-    },{
+    }, {
       "image": "https://i.imgur.com/IbvrFj5.png",
       "moba": "H310M LGA 1151",
       "cpu": "Intel Pentium G5400 (8 geração)",
@@ -132,7 +131,7 @@ const hardware = {
       "gpu": "RADEON RX550 2GB",
       "fonte": "500W",
       "price": "2400,00"
-    },{
+    }, {
       "image": "https://i.imgur.com/rBFW8zs.png",
       "moba": "H310M LGA 1151",
       "cpu": "Intel I3 8100 (8 geração)",
@@ -152,7 +151,7 @@ const hardware = {
       "gpu": "RADEON RX550 2GB",
       "fonte": "500W",
       "price": "3600,00"
-    },{
+    }, {
       "image": "https://i.imgur.com/0ulDArM.png",
       "moba": "A320MH AM4 AMD A320",
       "cpu": "RYZEN 5 3500X",
@@ -161,7 +160,7 @@ const hardware = {
       "gpu": "GEFORCE GTX 1650 SUPER 4GB",
       "fonte": "500W",
       "price": "4100,00"
-    },{
+    }, {
       "image": "https://i.imgur.com/FXYLT3k.png",
       "moba": "H310M LGA 1151",
       "cpu": "Intel I5 9400F",
@@ -181,7 +180,7 @@ const hardware = {
       "gpu": "GEFORCE GTX 1660 6GB OC",
       "fonte": "500W",
       "price": "5500,00"
-    },{
+    }, {
       "image": "https://i.imgur.com/RvPnJZ0.png",
       "moba": "H310M LGA 1151",
       "cpu": "Intel I5 10400F",
@@ -190,7 +189,7 @@ const hardware = {
       "gpu": "GEFORCE RTX 2060 SUPER 8GB",
       "fonte": "600W",
       "price": "6200,00"
-    },{
+    }, {
       "image": "https://i.imgur.com/KoLWRjD.png",
       "moba": "Z390M LGA 1151",
       "cpu": "Intel I9 9900K",
@@ -204,7 +203,7 @@ const hardware = {
 }
 
 
-export const options = [
+export const options_pt = [
   {
     name: 'Notebook Baixo Custo',
     itens: hardware.notebooks.low
