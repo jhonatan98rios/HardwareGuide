@@ -9,7 +9,8 @@ import { translate } from '../../locales'
 import { AdMobInterstitial } from 'expo-ads-admob';
 
 const testID = 'ca-app-pub-3940256099942544/1033173712';
-const productionID = 'ca-app-pub-1739197497968733/1150081283';
+const productionID = 'ca-app-pub-4295099091792843/1079613300';
+
 const adUnitID = Constants.isDevice && !__DEV__ ? productionID : testID;
 
 export default function Info({ navigation }) {
