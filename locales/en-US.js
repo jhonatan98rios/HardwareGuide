@@ -24,7 +24,7 @@ export default {
 
   search: {
     title: 'Tell me about the computer you need',
-    disclaimer: 'The phrases will be stored and later used in the training of the algorithm',
+    disclaimer: 'The algorithm is in the training phase, and may have inconsistencies. The phrases will be stored and later used in training the algorithm.',
     placeholder: 'Looking for a PC to...'
   },
   
