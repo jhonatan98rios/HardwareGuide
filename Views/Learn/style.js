@@ -25,6 +25,7 @@ export const Title = styled.Text`
 `
 
 export const Text = styled.Text`
+  text-align: center;
   font-size: 14px;
   font-weight: normal;
   color: #ffffff;

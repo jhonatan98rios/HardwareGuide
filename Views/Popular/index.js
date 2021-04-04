@@ -5,7 +5,7 @@ import { Container, ScrollView, Title, View, TouchableOpacity, Text} from './sty
 import { options_pt } from '../../Mockdata/Popular'
 import { options_en } from '../../Mockdata/Popular_en'
 
-const options = language == 'pt_BR' ? options_pt : options_en
+const options = language == 'pt-BR' ? options_pt : options_en
 
 export default function Popular({ navigation }) {
 
