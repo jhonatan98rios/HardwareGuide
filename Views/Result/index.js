@@ -12,8 +12,8 @@ import { translate } from '../../locales'
 import * as FacebookAds from 'expo-ads-facebook';
 FacebookAds.AdSettings.addTestDevice(FacebookAds.AdSettings.currentDeviceHash);
 
-const testID = 'IMG_16_9_LINK#1150593372079137_1150594088745732';
-const productionID = '1150593372079137_1150594088745732';
+const testID = 'CAROUSEL_IMG_SQUARE_LINK#1150593372079137_1150647022073772';
+const productionID = '1150593372079137_1150647022073772';
 const adUnitID = Constants.isDevice && !__DEV__ ? productionID : testID;
 
 export default function Result({ route, navigation }) {
