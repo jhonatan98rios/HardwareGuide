@@ -3139,6 +3139,14 @@ expo-ads-admob@~8.4.0:
   resolved "https://registry.yarnpkg.com/expo-ads-admob/-/expo-ads-admob-8.4.0.tgz#2aa7440393af7ff00b9868d59b0fa06fd0b970e7"
   integrity sha512-w+ZjMCfCGzB1BNyr0+oYJijSArq3+oTnJSMoMIuDueqtbSyeLCqKfe9zhRqat4qNczvSmJ6tL6DYZweqPLWtYw==
 
+expo-ads-facebook@~8.4.1:
+  version "8.4.1"
+  resolved "https://registry.yarnpkg.com/expo-ads-facebook/-/expo-ads-facebook-8.4.1.tgz#821ef408bb19c2db9693d37a1df087db1cb0ad33"
+  integrity sha512-DWx6m2gIEQWEKoP3Knu/ZhKkTr4T12D1ft77K0tlcRETu6MHAF3Wt+5PUVHwD2XYzlcdROat2UhaKvUDjFhrMg==
+  dependencies:
+    fbemitter "^2.1.1"
+    nullthrows "^1.1.0"
+
 expo-application@~2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/expo-application/-/expo-application-2.4.1.tgz#f8eb4a3a05a0b8a8f38f2e981f587a815945b685"
