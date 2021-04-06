@@ -5,12 +5,14 @@ import React from 'react';
 import { View, StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 
+// ADS
+import * as FacebookAds from 'expo-ads-facebook';
+FacebookAds.AdSettings.addTestDevice(FacebookAds.AdSettings.currentDeviceHash);
+
 const testID = 'IMG_16_9_LINK#1150593372079137_1150594088745732';
 const productionID = '1150593372079137_1150594088745732';
 const adUnitID = Constants.isDevice && !__DEV__ ? productionID : testID;
 
-import * as FacebookAds from 'expo-ads-facebook';
-FacebookAds.AdSettings.addTestDevice(FacebookAds.AdSettings.currentDeviceHash);
 
 import TabsNavigation from './Routes/tabs'
 

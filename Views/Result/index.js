@@ -9,9 +9,11 @@ import CardSlider from '../../Components/CardSlider'
 import { translate } from '../../locales'
 
 /* ADS */
-import { AdMobInterstitial } from 'expo-ads-admob';
-const testID = 'ca-app-pub-3940256099942544/1033173712';
-const productionID = 'ca-app-pub-4295099091792843/1079613300';
+import * as FacebookAds from 'expo-ads-facebook';
+FacebookAds.AdSettings.addTestDevice(FacebookAds.AdSettings.currentDeviceHash);
+
+const testID = 'IMG_16_9_LINK#1150593372079137_1150594088745732';
+const productionID = '1150593372079137_1150594088745732';
 const adUnitID = Constants.isDevice && !__DEV__ ? productionID : testID;
 
 export default function Result({ route, navigation }) {
@@ -22,16 +24,9 @@ export default function Result({ route, navigation }) {
   useEffect(() => {
 
     /* ADS Config */
-    async function showInterstitial(){
-      try{
-        await AdMobInterstitial.requestAdAsync();
-        await AdMobInterstitial.showAdAsync();
-      }
-      catch(e){ console.log(e) }
-    }
-
-    AdMobInterstitial.setAdUnitID(adUnitID); 
-    showInterstitial()
+    FacebookAds.InterstitialAdManager.showAd(adUnitID)
+      .then(didClick => {})
+      .catch(error => { console.log(error) })
 
     /* Products request */
     if(!sample) { navigation.push('search') }
