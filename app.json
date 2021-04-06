@@ -27,7 +27,9 @@
         "backgroundColor": "#000000"
       },
       "config": {
-        "googleMobileAdsAppId": "ca-app-pub-4295099091792843~7836593344"
+        "googleMobileAdsAppId": "ca-app-pub-4295099091792843~7836593344",
+        "facebookAppId": "437345290669520",
+        "facebookDisplayName": "HardwareGuide"
       },
       "permissions": []
     }

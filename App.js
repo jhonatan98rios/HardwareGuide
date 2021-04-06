@@ -5,12 +5,12 @@ import React from 'react';
 import { View, StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 
-const testID = 'ca-app-pub-3940256099942544/6300978111';
-const productionID = 'ca-app-pub-4295099091792843/9960177892';
-
+const testID = 'IMG_16_9_LINK#1150593372079137_1150594088745732';
+const productionID = '1150593372079137_1150594088745732';
 const adUnitID = Constants.isDevice && !__DEV__ ? productionID : testID;
 
-import { AdMobBanner } from 'expo-ads-admob';
+import * as FacebookAds from 'expo-ads-facebook';
+FacebookAds.AdSettings.addTestDevice(FacebookAds.AdSettings.currentDeviceHash);
 
 import TabsNavigation from './Routes/tabs'
 
@@ -23,13 +23,11 @@ export default function App() {
         barStyle="light-content"
       />
 
-      <AdMobBanner
-        bannerSize="fullBanner"
-        adUnitID={adUnitID}
-        setTestDeviceIDAsync
-        servePersonalizedAds
-        onDidFailToReceiveAdWithError={(err) => console.log(err)} 
-        style={{ width: '100%'}}
+      <FacebookAds.BannerAd
+        placementId={adUnitID}
+        type="standard"
+        onPress={() => console.log('click')}
+        onError={error => console.log('error', error)}
       />
 
     <NavigationContainer>
