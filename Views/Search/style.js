@@ -3,9 +3,10 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   flex: 1;
   align-items: center;
-  background-color: #0a0a1a;
+  background-color: #000000;
   justify-content: center;
 `
+  //background-color: #0a0a1a;
 
 export const Title = styled.Text`
   color: #4CC392;
@@ -24,7 +25,6 @@ export const TextInput = styled.TextInput`
   height: 130px;
   width: 85%;
   padding: 12px;
-  background-color: #0F0F1F;
   border-width: 1px;
   border-color: #4CC392;
   border-radius: 8px;
@@ -32,7 +32,9 @@ export const TextInput = styled.TextInput`
   color: #ffffff;
   text-align: left;
   text-align-vertical: top;
+  background-color: #0a0a15;
 `
+  //background-color: #0F0F1F;
 
 export const Button = styled.TouchableOpacity`
   width: 85%;

@@ -2,7 +2,7 @@
 import React from 'react';
 import Icon from 'react-native-vector-icons/Entypo';
 import { Text } from 'react-native'
-import { Box, Description, Image, Bold, Price } from './style'
+import { Box, Description, Image, ImageContainer, Bold, Price } from './style'
 
 import { translate } from '../../locales'
 
@@ -10,7 +10,12 @@ function Card({item}) {
   return (
     <Box>
 
-      { item.image && <Image source={{uri: item.image }} /> }
+      { 
+        item.image && 
+        <ImageContainer>
+          <Image source={{uri: item.image }} /> 
+        </ImageContainer>
+      }
       { !item.image && <Icon name="info" size={26} color='#FFF'/> }
       
       <Description>
@@ -20,7 +25,7 @@ function Card({item}) {
         }
 
         { 
-          item.moba.length > 0 && 
+          (item.moba && item.moba.length > 0) && 
           <Text> {translate('card_slider.moba')}: {item.moba} </Text> 
         }
 

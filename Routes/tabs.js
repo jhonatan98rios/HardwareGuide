@@ -42,7 +42,8 @@ const tabBarOptions = {
   activeTintColor: '#8257E6',
   inactiveTintColor: '#aaa',
   style: {
-    backgroundColor: '#0F0F1F', //'#202024',
+    //backgroundColor: '#0F0F1F', //'#202024',
+    backgroundColor: '#07070b',
     paddingBottom: 4,
     borderTopWidth: 0,
     height: 56,

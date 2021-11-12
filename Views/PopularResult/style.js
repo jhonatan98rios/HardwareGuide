@@ -4,14 +4,15 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
-  background-color: #0a0a1a;
   height: auto;
+  background-color: #000000;
 `
+  //background-color: #0a0a1a;
 
 export const Title = styled.Text`
   text-align: center;
   width: 60%;
-  margin-top: 24px;
+  margin-top: 16px;
   color: #4CC392;
   font-size: 18px;
   font-weight: bold;

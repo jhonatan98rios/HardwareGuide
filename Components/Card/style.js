@@ -14,11 +14,24 @@ export const Bold = styled.Text`
   text-align: center;
 `
 
+export const ImageContainer = styled.View`
+padding: 8px;
+width: 115px;
+height: 115px;
+margin: -64px auto 24px;
+border-radius: 55px;
+border: 2px solid #4CC392;
+background-color: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+`
+
 export const Image = styled.Image`
   padding: 8px;
   width: 110px;
-  height: 100px;
-  margin: -40px auto 16px;
+  height: 110px;
+  border-radius: 55px;
 `
 
 export const Box = styled.View`
@@ -30,7 +43,7 @@ export const Box = styled.View`
   border-radius: 10px;
   border: 2px solid #4CC392;
   text-align: left;
-  padding: 5px 15px;
+  padding: 5px 12px;
   top: 0px;
   bottom: 0px;
   margin-bottom: auto;
@@ -42,6 +55,6 @@ export const Description = styled.View`
 `
 
 export const Price = styled(Bold)`
-  margin-top: 4px;
+  margin-top: 8px;
   color: #555;
 `

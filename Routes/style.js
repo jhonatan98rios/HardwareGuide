@@ -8,5 +8,7 @@ export const IconTabRound = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #DD00D5;
+  background-color: #000000;
 `
+
+//background-color: #DD00D5;

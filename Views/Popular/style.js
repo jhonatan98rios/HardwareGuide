@@ -3,9 +3,10 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   flex: 1;
   align-items: center;
-  background-color: #0a0a1a;
   justify-content: flex-end;
+  background-color: #000000;
 `
+//background-color: #0a0a1a;
 
 export const View = styled.View`
   width: 100%;
@@ -36,12 +37,13 @@ export const ScrollView = styled.ScrollView`
 
 export const TouchableOpacity = styled.TouchableOpacity`
   border: 1px solid #4CC392;
-  background-color: rgba(255,255,255,.1);
   width: 90%;
   height: 72px;
   margin: 0 auto;
   margin-bottom: 12px;
   border-radius: 8px;
   justify-content: center;
+  background-color: #0a0a15;
 `
+  //background-color: rgba(255,255,255,.1);
 
