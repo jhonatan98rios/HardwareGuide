@@ -3,9 +3,10 @@ import { translate, language } from '../../locales'
 import { Container, ScrollView, Title, View, TouchableOpacity, Text} from './style.js'
 
 import { options_pt } from '../../Mockdata/Popular'
-import { options_en } from '../../Mockdata/Popular_en'
+//import { options_en } from '../../Mockdata/Popular_en'
 
-const options = language == 'pt-BR' ? options_pt : options_en
+// const options = language == 'pt-BR' ? options_pt : options_en
+const options = options_pt
 
 export default function Popular({ navigation }) {
 

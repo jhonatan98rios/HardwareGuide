@@ -15,7 +15,7 @@ export default {
 
   learn: {
     title: 'Aprenda sobre hardware',
-    endpoint: 'https://smart-gadget-web.herokuapp.com/api/learn'
+    endpoint: 'https://hardwareguide-api.herokuapp.com/api/learn'
   },
 
   popular: {
@@ -32,7 +32,7 @@ export default {
     loading: 'Aguarde enquanto processamos seu pedido',
     title: 'Veja as sugestões que separamos para você',
     disclaimer: '* Os preços podem váriar  de acordo com o mercado. Os preços ilustrados são somente para comparação.',
-    endpoint: 'https://smart-gadget-web.herokuapp.com/api/smart'
+    endpoint: 'https://hardwareguide-api.herokuapp.com/api/smart'
   },
 
   popular_result: {

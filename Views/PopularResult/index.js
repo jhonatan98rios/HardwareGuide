@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Title, Disclaimer } from './style.js'
 import CardSlider from '../../Components/CardSlider'
 

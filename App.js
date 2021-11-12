@@ -6,7 +6,7 @@ import { View, StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 
 const testID = 'ca-app-pub-3940256099942544/6300978111';
-const productionID = 'ca-app-pub-4295099091792843/9960177892';
+const productionID = 'ca-app-pub-1739197497968733/3971143171';
 
 const adUnitID = Constants.isDevice && !__DEV__ ? productionID : testID;
 

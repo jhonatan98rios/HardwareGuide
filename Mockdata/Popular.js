@@ -2,202 +2,223 @@ const hardware = {
   notebooks: {
     low: [
       {
-        "name": "MULTILASER - LEGACY BOOK",
-        "image": "https://i.imgur.com/dIVG2pz.png",
-        "moba": "MULTILASER",
-        "cpu": "Pentium",
-        "storage": "64 GB eMMC",
+        "name": "Positivo Motion I34128GB",
+        "image": "https://images.kabum.com.br/produtos/fotos/196061/notebook-positivo-motion-i34128gb-intel-core-i3-6157u-4gb-128gb-ssd-windows-10-home-14-hd-cinza-3011902_1629398816_gg.jpg",
+        "moba": "",
+        "cpu": "Intel Core i3-6157U",
+        "storage": "128GB SSD",
         "ram": "4GB",
-        "gpu": "Intel UHD Graphics 620",
-        "price": "1.600,00",
-        "screen": "Tela 14 - 1366x768 HD"
+        "gpu": "Intel Iris 550",
+        "price": "2.843,33",
+        "screen": "14 inch 1366 x 768, Antireflexo",
+        "link": "https://www.kabum.com.br/produto/196061/notebook-positivo-motion-i34128gb-intel-core-i3-6157u-4gb-128gb-ssd-windows-10-home-14-hd-cinza-3011902"
       },
       {
-        "name": "SAMSUNG FLASH",
-        "image": "https://i.imgur.com/PuuVYuS.png",
-        "moba": "Samsung",
-        "cpu": "Celeron N4000",
-        "storage": "128GB e.MMC",
-        "ram": "4GB DDR4",
-        "gpu": "Intel UHD Graphics 600",
-        "price": "2.600,00",
-        "screen": "Tela 13,3 LED Full HD"
+        "name": "Multilaser Ultra",
+        "image": "https://images4.kabum.com.br/produtos/fotos/153774/notebook-ultra-intel-core-i5-5257u-8gb-1tb-hdd-15-6-windows-10-prata-ub521_1619788436_g.jpg",
+        "moba": "",
+        "cpu": " Intel Core i5",
+        "storage": "1TB HDD",
+        "ram": "8GB",
+        "gpu": "Intel iris graphics 6100",
+        "price": "3.187,78",
+        "screen": "15 inch 1366 x 768",
+        "link": "https://m.kabum.com.br/produto/153774/notebook-ultra-intel-core-i5-5257u-8gb-1tb-hdd-15-6-windows-10-prata-ub521"
       },
       {
-        "name": "LENOVO IDEAPAD S145",
-        "image": "https://i.imgur.com/E0xosMc.png",
-        "moba": "LENOVO",
-        "cpu": " R3-3200U",
-        "storage": "256GB SSD",
-        "ram": "8GB DDR4",
-        "gpu": "Integrada AMD Radeon™ RX Vega 3",
-        "price": "3.100,00",
-        "screen": "Tela 15,6 - 1366 x 768 - Antirreflexo"
+        "name": "Lenovo Ultrafino Ideapad S145",
+        "image": "https://images.kabum.com.br/produtos/fotos/179446/notebook-lenovo-ultrafino-ideapad-s145-ryzen-5-3500u-8gb-256gb-ssd-m-2-nvm4e-15-6-dolby-audio-windows-10-home-prata-81v70008br_1628002673_gg.jpg",
+        "moba": "",
+        "cpu": "Ryzen 5-3500U",
+        "storage": "256GB SSD M.2 NVM4e",
+        "ram": "8GB",
+        "gpu": "AMD Radeon RX Vega 8",
+        "price": "3.189,37",
+        "screen": "15.6 inch 1366x768, Antirreflexo",
+        "link": "kabum.com.br/produto/179446/notebook-lenovo-ultrafino-ideapad-s145-ryzen-5-3500u-8gb-256gb-ssd-m-2-nvm4e-15-6-dolby-audio-windows-10-home-prata-81v70008br"
       }
     ],
 
     mid: [
       {
-        "name": "ACER ASPIRE 3",
-        "image": "https://i.imgur.com//pTHNzMM.png",
-        "moba": "ACER",
-        "cpu": "Ryzen R5 3500U",
+        "name": "Lenovo Ideapad 3i",
+        "image": "https://images.kabum.com.br/produtos/fotos/156935/notebook-lenovo-ideapad-3i-intel-core-i5-10210u-uhd-graphics-8gb-ram-256gb-ssd-15-6-windows-10-prata-82bs0005br_1622468345_gg.jpg",
+        "moba": "",
+        "cpu": "Intel i5-10210U",
         "storage": "256GB SSD",
-        "ram": "8GB",
-        "gpu": "AMD Radeon 625 2GB GDDR5",
-        "price": "3.600,00",
-        "screen": "Tela 15,6 - 1366x768 HD"
+        "ram": "8GB RAM",
+        "gpu": "UHD Intel Core 10ª Geração",
+        "price": "3.494,63",
+        "screen": "15.6 inch HD 1366x768, Antirreflexo",
+        "link": "kabum.com.br/produto/156935/notebook-lenovo-ideapad-3i-intel-core-i5-10210u-uhd-graphics-8gb-ram-256gb-ssd-15-6-windows-10-prata-82bs0005br"
       },
       {
-        "name": "ACER ASPIRE 3",
-        "image": " https://i.imgur.com/FjUKe6i.png",
-        "moba": "ACER",
-        "cpu": " Intel Core i5 10ª geração",
+        "name": "Acer Aspire 3",
+        "image": "https://images.kabum.com.br/produtos/fotos/156098/notebook-acer-aspire-3-amd-ryzen-5-3500u-8gb-256gb-ssd-15-6-hd-1366x768-windows-10-home-preto-a315-23-r6m7_1629130165_gg.jpg",
+        "moba": "",
+        "cpu": "Ryzen 5-3500U",
         "storage": "256GB SSD",
-        "ram": "8GB DDR4",
-        "gpu": "Nvidea MX250 com 2GB GDDR5",
-        "price": "5.000,00",
-        "screen": "Tela 13,3 LED Full HD"
+        "ram": "8GB ",
+        "gpu": "Radeon RX Vega 8",
+        "price": "3.554,44",
+        "screen": "15.6 inch HD 1366x768",
+        "link": "https://www.kabum.com.br/produto/156098/notebook-acer-aspire-3-amd-ryzen-5-3500u-8gb-256gb-ssd-15-6hd-1366x768-windows-10-home-preto-a315-23-r6m7"
       },
       {
-        "name": "LG GRAM",
-        "image": " https://i.imgur.com/LT44NV2.png",
-        "moba": "LENOVO",
-        "cpu": "Intel Core i7-5950HQ",
-        "storage": "256GB SSD",
-        "ram": "8GB DDR4",
-        "gpu": "Intel UHD Graphics",
-        "price": "5.200,00",
-        "screen": "Tela 14 - Full HD - 1920 x 1080"
+        "name": "ASUS M515DA-EJ533T",
+        "image": "https://images.kabum.com.br/produtos/fotos/156499/notebook-asus-amd-ryzen-7-8gb-ram-256-gb-ssd-windows-10-home-preto-m515da-ej533t_1621426404_gg.jpg",
+        "moba": "",
+        "cpu": "AMD Ryzen 7 3700U",
+        "storage": "256 GB SSD",
+        "ram": "8 GB",
+        "gpu": "Radeon RX Vega 10",
+        "price": "4.132,22",
+        "screen": "15.6 inch HD 1920x1080",
+        "link": "https://www.kabum.com.br/produto/156499/notebook-asus-amd-ryzen-7-8gb-ram-256-gb-ssd-15-6-full-hd-windows-10-home-cinza-escuro-m515da-ej533t"
       }
     ],
 
     high: [
       {
-        "name": "Asus M570DD-DM122T",
-        "image": "https://i.imgur.com/DmvKfaN.png",
-        "moba": "Asus",
-        "cpu": "Ryzen 5 3500U",
-        "storage": "HD 1TB",
-        "ram": "8GB DDR4",
-        "gpu": "NVIDIA GTX1050 4GB",
-        "fonte": "Bateria de 4480mAh",
-        "price": "5200,00",
-        "screen": "Tela 15,6"
+        "name": "ASUS VivoBook X513EP-EJ232",
+        "image": "https://images.kabum.com.br/produtos/fotos/155589/notebook-asus-vivobook-x513ep-ej232-intel-core-i7-1165g7-nvidia-geforce-mx330-8gb-ram-256gb-ssd-endless-os-preto-90nb0sj4-m04370_1628168744_gg.jpg",
+        "moba": "",
+        "cpu": "Intel Core I7 1165G7",
+        "storage": "256GB SSD",
+        "ram": "8GB RAM",
+        "gpu": "NVIDIA GeForce MX330",
+        "price": "5.654,44",
+        "screen": "15.6 inch Full HD",
+        "link": "https://www.kabum.com.br/produto/155589/notebook-asus-vivobook-x513ep-ej232-intel-core-i7-1165g7-nvidia-geforce-mx330-8gb-ram-256gb-ssd-endless-os-preto-90nb0sj4-m04370"
       },
       {
-        "name": "Nitro 5",
-        "image": "https://i.imgur.com/lbKwAgh.png",
-        "moba": "Acer",
-        "cpu": "AMD Ryzen 7-3750H",
-        "storage": "HD 1TB, SSD 128GB",
-        "ram": "8GB DDR4",
-        "gpu": "GeForce GTX 1650 4GB",
-        "fonte": "Bateria de 4 células 55Wh 3220 mAh",
-        "price": "5.600,00",
-        "screen": "Tela 15,6"
+        "name": "Asus Gamer X571GT-AL887T",
+        "image": "https://images.kabum.com.br/produtos/fotos/133034/notebook-asus-gamer-intel-core-i5-9300h-8gb-256gb-ssd-tela-15-6-full-hd-120hz-nvidia-gtx-1650-windows-10-home-x571gt-al887t_1611755954_gg.jpg",
+        "moba": "",
+        "cpu": "Intel Core i5 9300H",
+        "storage": "256GB SSD",
+        "ram": "8GB",
+        "gpu": "NVIDIA GTX 1650",
+        "price": "6.088,78",
+        "screen": "15.6 inch Full HD 120Hz",
+        "link": "https://www.kabum.com.br/produto/133034/notebook-asus-gamer-intel-core-i5-9300h-8gb-256gb-ssd-tela-15-6-full-hd-120hz-nvidia-gtx-1650-windows-10-home-x571gt-al887t"
       },
       {
-        "name": "Ideapad Gaming 3",
-        "image": "https://i.imgur.com/TXSmCXY.png",
-        "moba": "Lenovo",
-        "cpu": "Intel Core i7-10750H",
-        "storage": "SSD 256GB",
-        "ram": "8GB DDR4",
-        "gpu": "GTX 1650 4GB",
-        "fonte": "Bateria de 45Wh",
-        "price": "7000,00",
-        "screen": "Tela 15,6"
+        "name": "Acer Nitro 5",
+        "image": "https://images.kabum.com.br/produtos/fotos/159820/notebook-gamer-acer-nitro-5-amd-ryzen-7-4800h-8gb-ssd-512gb-gtx-1650-ti-4gb-15-6-windows-10-home-preto-e-vermelho-an515-44-r8hn_1623092842_gg.jpg",
+        "moba": "",
+        "cpu": "AMD Ryzen 7 4800H",
+        "storage": "512 SSD",
+        "ram": "8GB",
+        "gpu": "GTX 1650 Ti 4GB",
+        "price": "6.555,44",
+        "screen": "15.6 inch Full HD 144 Hz",
+        "link": "https://www.kabum.com.br/produto/159820/notebook-gamer-acer-nitro-5-amd-ryzen-7-4800h-8gb-ssd-512gb-gtx-1650-ti-4gb-15-6-windows-10-home-preto-e-vermelho-an515-44-r8hn"
       }
     ]
   },
 
   desktops: {
     low: [{
-      "image": "https://i.imgur.com/JZTk1VU.png",
-      "moba": "A320MH AM4 AMD A320",
-      "cpu": "Ryzen 3 3200G",
-      "storage": "SSD 128GB",
-      "ram": "4GB DDR4",
-      "gpu": "Radeon Vega 8 Graphics",
-      "fonte": "500W",
-      "price": "1800,00"
-    }, {
-      "image": "https://i.imgur.com/IbvrFj5.png",
-      "moba": "H310M LGA 1151",
-      "cpu": "Intel Pentium G5400 (8 geração)",
-      "storage": "SSD 120GB",
+      "name": "PC Gamer Concórdia",
+      "image": "https://images.kabum.com.br/produtos/fotos/251392/pc-gamer-concordia-ryzen-3-3200g-rgb-8gb-ddr4-ssd-240gb-fonte-500w-linux-preto-31164_1635192244_gg.jpg",
+      "moba": "Asus A320m-k/br Prime Am4",
+      "cpu": "Amd Ryzen R3 3200G",
+      "storage": "SSD 240GB Kingston",
+      "ram": "8GB DDR4 Adata 2666mhz (Suporta até 64GB)",
+      "gpu": "Radeon™ Vega 8 Graphics",
+      "price": "3.222,11",
+      "link": "https://www.kabum.com.br/produto/251392/pc-gamer-concordia-ryzen-3-3200g-rgb-8gb-ddr4-ssd-240gb-radeon-vega-8-fonte-500w-linux-31164"
+    },
+    {
+      "name": "Computador Gamer Ark Powered By Asus",
+      "image": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/190351/Computador-Gamer-Ark-Powered-By-Asus-AMD-Ryzen-5-3400G-8GB-SSD-240GB-Radeon-Vega-11-Windows-10-Pro_1635259914_gg.jpg",
+      "moba": "Asus - uATX",
+      "cpu": "AMD Ryzen 5 3400G",
+      "storage": "SSD 240GB",
       "ram": "8GB DDR4",
-      "gpu": "RADEON RX550 2GB",
-      "fonte": "500W",
-      "price": "2400,00"
-    }, {
-      "image": "https://i.imgur.com/rBFW8zs.png",
-      "moba": "H310M LGA 1151",
-      "cpu": "Intel I3 8100 (8 geração)",
-      "storage": "SSD 120GB",
-      "ram": "8GB DDR4",
-      "gpu": "RADEON RX550 2GB",
-      "fonte": "500W",
-      "price": "2800,00"
+      "gpu": "Gráficos Radeon Vega 11",
+      "price": "3.436,56",
+      "link": "https://www.kabum.com.br/produto/190351/computador-gamer-ark-powered-by-asus-amd-ryzen-5-3400g-8gb-ssd-240gb-radeon-vega-11-windows-10-pro"
+    },
+    {
+      "name": "PC Gamer NTC Vulcano II",
+      "image": "https://images.kabum.com.br/produtos/fotos/168793/microcomputador-gamer-ntc-vulcano-ii-7159-i5-10400-8gb-ram-ssd-240gb-linux-preto-vulcano-7159_1625667127_gg.jpg",
+      "moba": "Gigabyte H410M-H",
+      "cpu": "Intel Core i5-10400",
+      "storage": "SSD 240GB",
+      "ram": "8GB RAM",
+      "gpu": "Gráficos UHD Intel® 630",
+      "price": "3.775,44",
+      "link": "https://www.kabum.com.br/produto/168793/pc-gamer-ntc-vulcano-ii-intel-core-i5-10400-8gb-ram-ssd-240gb-linux-preto-7159"
     }],
 
     mid: [{
-      "image": "https://i.imgur.com/3WRCF8z.png",
-      "moba": "A320MH AM4 AMD A320",
-      "cpu": "Ryzen 5 3500X",
-      "storage": "HD 1TB + SSD 120GB",
+      "name": "PC Gamer Concórdia Orion",
+      "image": "https://images.kabum.com.br/produtos/fotos/251396/pc-gamer-concordia-orion-core-i3-10100f-geforce-msi-gtx-1050ti-oc-8gb-ddr4-ssd-240gb-1x-coller-led-linux-preto-31170_1635251600_gg.jpg",
+      "moba": "Placa Mae Asus PRIME H510M-E",
+      "cpu": "Intel Core I3 10100F",
+      "storage": "SSD 240GB",
       "ram": "8GB DDR4",
-      "gpu": "RADEON RX550 2GB",
-      "fonte": "500W",
-      "price": "3600,00"
-    }, {
-      "image": "https://i.imgur.com/0ulDArM.png",
-      "moba": "A320MH AM4 AMD A320",
-      "cpu": "RYZEN 5 3500X",
-      "storage": "HD 1TB + SSD 120GB",
+      "gpu": "GeForce MSI GTX 1050Ti Oc",
+      "price": "4.588,78",
+      "link": "https://www.kabum.com.br/produto/251396/pc-gamer-concordia-orion-core-i3-10100f-geforce-msi-gtx-1050ti-oc-8gb-ddr4-ssd-240gb-1x-cooler-led-linux-preto-31170"
+    },
+    {
+      "name": "PC Gamer Smart PC",
+      "image": "https://images.kabum.com.br/produtos/fotos/sync_mirakl/165852/Kit-PC-Gamer-Smart-PC-Intel-I5-8GB-Geforce-GTX-1650-4GB-1TB-Monitor-21-5-Smt81288_1635969790_gg.jpg",
+      "cpu": "Intel I5 8GB",
+      "storage": "1TB HD",
+      "ram": "8GB",
+      "gpu": "Geforce GTX 1650 4GB",
+      "price": "5.393,00",
+      "link": "https://www.kabum.com.br/produto/165852/kit-pc-gamer-smart-pc-intel-i5-8gb-geforce-gtx-1650-4gb-1tb-monitor-21-5-smt81288",
+      "screen": "Monitor 21.5"
+    },
+    {
+      "name": "PC Gamer Concordia BG-014",
+      "image": "https://images.kabum.com.br/produtos/fotos/251397/pc-gamer-concordia-bg-014-core-i5-10400f-geforce-msi-gtx-1650-d6-oc-8gb-ddr4-ssd-240gb-2x-coolers-led-linux-preto-31172_1635253141_gg.jpg",
+      "moba": "Placa Mae Asus PRIME H510M-E",
+      "cpu": "Core i5-10400F",
+      "storage": "SSD 240GB",
       "ram": "8GB DDR4",
-      "gpu": "GEFORCE GTX 1650 SUPER 4GB",
-      "fonte": "500W",
-      "price": "4100,00"
-    }, {
-      "image": "https://i.imgur.com/FXYLT3k.png",
-      "moba": "H310M LGA 1151",
-      "cpu": "Intel I5 9400F",
-      "storage": "HD 1TB + SSD 120GB",
-      "ram": "8GB DDR4",
-      "gpu": "GEFORCE GTX 1660 6GB OC",
-      "fonte": "500W",
-      "price": "4400,00"
+      "gpu": "GeForce MSI GTX 1650 D6 OC",
+      "price": "5.699,89",
+      "link": "https://www.kabum.com.br/produto/251397/pc-gamer-concordia-bg-014-core-i5-10400f-geforce-msi-gtx-1650-d6-oc-8gb-ddr4-ssd-240gb-2x-coolers-led-linux-preto-31172"
     }],
 
     high: [{
-      "image": "https://i.imgur.com/57dmial.png",
-      "moba": "H310M LGA 1151",
-      "cpu": "Intel I7 9700F",
-      "storage": "HD 1TB + SSD 240GB",
-      "ram": "16GB DDR4",
-      "gpu": "GEFORCE GTX 1660 6GB OC",
-      "fonte": "500W",
-      "price": "5500,00"
-    }, {
-      "image": "https://i.imgur.com/RvPnJZ0.png",
-      "moba": "H310M LGA 1151",
-      "cpu": "Intel I5 10400F",
-      "storage": "HD 1TB + SSD 240GB",
-      "ram": "16GB DDR4",
-      "gpu": "GEFORCE RTX 2060 SUPER 8GB",
-      "fonte": "600W",
-      "price": "6200,00"
-    }, {
-      "image": "https://i.imgur.com/KoLWRjD.png",
-      "moba": "Z390M LGA 1151",
-      "cpu": "Intel I9 9900K",
-      "storage": "HD 1TB + SSD 480GB",
-      "ram": "16GB DDR4",
-      "gpu": " GEFORCE RTX 2060 6GB",
-      "fonte": "650W",
-      "price": "8500,00"
+      "name": "PC Gamer OnPress Powered By Asus",
+      "image": "https://images.kabum.com.br/produtos/fotos/238699/computador-gamer-onpress-powered-by-asus-i3-10100f-rgb-gtx-1650-4gb-8gb-ddr4-ssd-240gb-linux-preto-ong1010ft1658s24_1633526718_gg.jpg",
+      "moba": "Placa Mãe Asus Prime H410M-E",
+      "cpu": "Intel core i3 10100F",
+      "storage": "SSD 240GB",
+      "ram": "8GB DDR4",
+      "gpu": "GTX 1650 4GB",
+      "price": "6.444,33",
+      "link": "https://www.kabum.com.br/produto/238699/pc-gamer-onpress-powered-by-asus-i3-10100f-rgb-gtx-1650-4gb-8gb-ddr4-ssd-240gb-linux-preto-ong1010ft1658s24"
+    },
+    {
+      "name": "PC Gamer NAVE Urano AAT01",
+      "image": "https://images.kabum.com.br/produtos/fotos/166662/computador-gamer-daten-nave-urano-aat01-ryzen-r5-3600-geforce-gtx-1660-super-8gb-ram-ssd-256gb-hd-1tb-linux-dnr5vb3f000_1624567385_gg.jpg",
+      "moba": "MB A320M-K/BR",
+      "cpu": "Ryzen R5 3600",
+      "storage": "SSD 256GB + HD 1TB",
+      "ram": "8GB RAM",
+      "gpu": "Geforce GTX 1660",
+      "price": "8.816,56",
+      "link": "https://www.kabum.com.br/produto/166662/pc-gamer-nave-urano-aat01-ryzen-r5-3600-8gb-ram-ssd-256gb-hd-1tb-geforce-gtx-1660-super-linux-dnr5vb3f000"
+    },
+    {
+      "name": "PC Gamer Concordia",
+      "image": "https://images.kabum.com.br/produtos/fotos/251398/pc-gamer-concordia-i7-10700f-rgb-gainward-gtx-1660-super-ghost-8gb-ddr4-ssd-480gb-linux-preto-31168_1635254931_gg.jpg",
+      "moba": "Asus PRIME H510M-E",
+      "cpu": "i7-10700F",
+      "storage": "SSD 480GB",
+      "ram": "8GB DDR4",
+      "gpu": "Gainward GTX 1660 Super Ghost",
+      "price": "9.033,22",
+      "link": "https://www.kabum.com.br/produto/251398/pc-gamer-concordia-i7-10700f-rgb-gainward-gtx-1660-super-ghost-8gb-ddr4-ssd-480gb-linux-preto-31168"
     }]
   }
 }
