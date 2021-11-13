@@ -38,12 +38,12 @@ export const Box = styled.View`
   width: 100%;
   height: auto;
   min-height: 240px;
-  margin: 48px 10px 0px;
+  margin: 56px 10px 0px;
   background-color: #fff;
   border-radius: 10px;
   border: 2px solid #4CC392;
   text-align: left;
-  padding: 5px 12px;
+  padding: 5px 12px 0px;
   top: 0px;
   bottom: 0px;
   margin-bottom: auto;
@@ -51,10 +51,21 @@ export const Box = styled.View`
 `
 
 export const Description = styled.View`
-  padding-bottom: 10px;
+  padding-bottom: 8px;
 `
 
 export const Price = styled(Bold)`
   margin-top: 8px;
   color: #555;
+`
+
+export const Button = styled.TouchableOpacity`
+  background-color: #4CC392;
+  width: 90%;
+  height: 40px;
+  margin: 8px auto 0px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
 `

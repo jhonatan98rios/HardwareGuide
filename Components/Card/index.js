@@ -1,12 +1,13 @@
 
 import React from 'react';
 import Icon from 'react-native-vector-icons/Entypo';
-import { Text } from 'react-native'
-import { Box, Description, Image, ImageContainer, Bold, Price } from './style'
+import { Text, Linking } from 'react-native'
+import { Box, Description, Image, ImageContainer, Bold, Price, Button } from './style'
 
 import { translate } from '../../locales'
 
 function Card({item}) {
+
   return (
     <Box>
 
@@ -16,6 +17,7 @@ function Card({item}) {
           <Image source={{uri: item.image }} /> 
         </ImageContainer>
       }
+
       { !item.image && <Icon name="info" size={26} color='#FFF'/> }
       
       <Description>
@@ -77,6 +79,15 @@ function Card({item}) {
             {translate('card_slider.price')}: {translate('card_slider.currency')}
             {item.price} 
           </Price>
+        }
+
+        {
+          item.link &&
+          <Button onPress={() => Linking.openURL(item.link)}>
+            <Text style={{color: '#ffffff'}}>
+              Ver o produto
+            </Text>
+          </Button>
         }
       </Description>
     </Box>

@@ -4,38 +4,35 @@ const hardware = {
       {
         "name": "Positivo Motion I34128GB",
         "image": "https://images.kabum.com.br/produtos/fotos/196061/notebook-positivo-motion-i34128gb-intel-core-i3-6157u-4gb-128gb-ssd-windows-10-home-14-hd-cinza-3011902_1629398816_gg.jpg",
-        "moba": "",
         "cpu": "Intel Core i3-6157U",
         "storage": "128GB SSD",
         "ram": "4GB",
         "gpu": "Intel Iris 550",
-        "price": "2.843,33",
+        "price": "2.800,00",
         "screen": "14 inch 1366 x 768, Antireflexo",
-        "link": "https://www.kabum.com.br/produto/196061/notebook-positivo-motion-i34128gb-intel-core-i3-6157u-4gb-128gb-ssd-windows-10-home-14-hd-cinza-3011902"
+        "link": "https://m.kabum.com.br/produto/196061/notebook-positivo-motion-i34128gb-intel-core-i3-6157u-4gb-128gb-ssd-windows-10-home-14-hd-cinza-3011902"
       },
       {
         "name": "Multilaser Ultra",
         "image": "https://images4.kabum.com.br/produtos/fotos/153774/notebook-ultra-intel-core-i5-5257u-8gb-1tb-hdd-15-6-windows-10-prata-ub521_1619788436_g.jpg",
-        "moba": "",
         "cpu": " Intel Core i5",
         "storage": "1TB HDD",
         "ram": "8GB",
         "gpu": "Intel iris graphics 6100",
-        "price": "3.187,78",
+        "price": "3.100,00",
         "screen": "15 inch 1366 x 768",
         "link": "https://m.kabum.com.br/produto/153774/notebook-ultra-intel-core-i5-5257u-8gb-1tb-hdd-15-6-windows-10-prata-ub521"
       },
       {
         "name": "Lenovo Ultrafino Ideapad S145",
         "image": "https://images.kabum.com.br/produtos/fotos/179446/notebook-lenovo-ultrafino-ideapad-s145-ryzen-5-3500u-8gb-256gb-ssd-m-2-nvm4e-15-6-dolby-audio-windows-10-home-prata-81v70008br_1628002673_gg.jpg",
-        "moba": "",
         "cpu": "Ryzen 5-3500U",
         "storage": "256GB SSD M.2 NVM4e",
         "ram": "8GB",
         "gpu": "AMD Radeon RX Vega 8",
-        "price": "3.189,37",
+        "price": "3.200,00",
         "screen": "15.6 inch 1366x768, Antirreflexo",
-        "link": "kabum.com.br/produto/179446/notebook-lenovo-ultrafino-ideapad-s145-ryzen-5-3500u-8gb-256gb-ssd-m-2-nvm4e-15-6-dolby-audio-windows-10-home-prata-81v70008br"
+        "link": "https://m.kabum.com.br/produto/179446/notebook-lenovo-ultrafino-ideapad-s145-ryzen-5-3500u-8gb-256gb-ssd-m-2-nvm4e-15-6-dolby-audio-windows-10-home-prata-81v70008br"
       }
     ],
 
@@ -43,38 +40,35 @@ const hardware = {
       {
         "name": "Lenovo Ideapad 3i",
         "image": "https://images.kabum.com.br/produtos/fotos/156935/notebook-lenovo-ideapad-3i-intel-core-i5-10210u-uhd-graphics-8gb-ram-256gb-ssd-15-6-windows-10-prata-82bs0005br_1622468345_gg.jpg",
-        "moba": "",
         "cpu": "Intel i5-10210U",
         "storage": "256GB SSD",
         "ram": "8GB RAM",
         "gpu": "UHD Intel Core 10ª Geração",
-        "price": "3.494,63",
+        "price": "3.500,00",
         "screen": "15.6 inch HD 1366x768, Antirreflexo",
-        "link": "kabum.com.br/produto/156935/notebook-lenovo-ideapad-3i-intel-core-i5-10210u-uhd-graphics-8gb-ram-256gb-ssd-15-6-windows-10-prata-82bs0005br"
+        "link": "https://m.kabum.com.br/produto/156935/notebook-lenovo-ideapad-3i-intel-core-i5-10210u-uhd-graphics-8gb-ram-256gb-ssd-15-6-windows-10-prata-82bs0005br"
       },
       {
         "name": "Acer Aspire 3",
         "image": "https://images.kabum.com.br/produtos/fotos/156098/notebook-acer-aspire-3-amd-ryzen-5-3500u-8gb-256gb-ssd-15-6-hd-1366x768-windows-10-home-preto-a315-23-r6m7_1629130165_gg.jpg",
-        "moba": "",
         "cpu": "Ryzen 5-3500U",
         "storage": "256GB SSD",
         "ram": "8GB ",
         "gpu": "Radeon RX Vega 8",
-        "price": "3.554,44",
+        "price": "3.600,00",
         "screen": "15.6 inch HD 1366x768",
-        "link": "https://www.kabum.com.br/produto/156098/notebook-acer-aspire-3-amd-ryzen-5-3500u-8gb-256gb-ssd-15-6hd-1366x768-windows-10-home-preto-a315-23-r6m7"
+        "link": "https://m.kabum.com.br/produto/156098/notebook-acer-aspire-3-amd-ryzen-5-3500u-8gb-256gb-ssd-15-6hd-1366x768-windows-10-home-preto-a315-23-r6m7"
       },
       {
         "name": "ASUS M515DA-EJ533T",
         "image": "https://images.kabum.com.br/produtos/fotos/156499/notebook-asus-amd-ryzen-7-8gb-ram-256-gb-ssd-windows-10-home-preto-m515da-ej533t_1621426404_gg.jpg",
-        "moba": "",
         "cpu": "AMD Ryzen 7 3700U",
         "storage": "256 GB SSD",
         "ram": "8 GB",
         "gpu": "Radeon RX Vega 10",
-        "price": "4.132,22",
+        "price": "4.100,00",
         "screen": "15.6 inch HD 1920x1080",
-        "link": "https://www.kabum.com.br/produto/156499/notebook-asus-amd-ryzen-7-8gb-ram-256-gb-ssd-15-6-full-hd-windows-10-home-cinza-escuro-m515da-ej533t"
+        "link": "https://m.kabum.com.br/produto/156499/notebook-asus-amd-ryzen-7-8gb-ram-256-gb-ssd-15-6-full-hd-windows-10-home-cinza-escuro-m515da-ej533t"
       }
     ],
 
@@ -82,38 +76,35 @@ const hardware = {
       {
         "name": "ASUS VivoBook X513EP-EJ232",
         "image": "https://images.kabum.com.br/produtos/fotos/155589/notebook-asus-vivobook-x513ep-ej232-intel-core-i7-1165g7-nvidia-geforce-mx330-8gb-ram-256gb-ssd-endless-os-preto-90nb0sj4-m04370_1628168744_gg.jpg",
-        "moba": "",
         "cpu": "Intel Core I7 1165G7",
         "storage": "256GB SSD",
         "ram": "8GB RAM",
         "gpu": "NVIDIA GeForce MX330",
-        "price": "5.654,44",
+        "price": "5.600,00",
         "screen": "15.6 inch Full HD",
-        "link": "https://www.kabum.com.br/produto/155589/notebook-asus-vivobook-x513ep-ej232-intel-core-i7-1165g7-nvidia-geforce-mx330-8gb-ram-256gb-ssd-endless-os-preto-90nb0sj4-m04370"
+        "link": "https://m.kabum.com.br/produto/155589/notebook-asus-vivobook-x513ep-ej232-intel-core-i7-1165g7-nvidia-geforce-mx330-8gb-ram-256gb-ssd-endless-os-preto-90nb0sj4-m04370"
       },
       {
         "name": "Asus Gamer X571GT-AL887T",
         "image": "https://images.kabum.com.br/produtos/fotos/133034/notebook-asus-gamer-intel-core-i5-9300h-8gb-256gb-ssd-tela-15-6-full-hd-120hz-nvidia-gtx-1650-windows-10-home-x571gt-al887t_1611755954_gg.jpg",
-        "moba": "",
         "cpu": "Intel Core i5 9300H",
         "storage": "256GB SSD",
         "ram": "8GB",
         "gpu": "NVIDIA GTX 1650",
-        "price": "6.088,78",
+        "price": "6.100,00",
         "screen": "15.6 inch Full HD 120Hz",
-        "link": "https://www.kabum.com.br/produto/133034/notebook-asus-gamer-intel-core-i5-9300h-8gb-256gb-ssd-tela-15-6-full-hd-120hz-nvidia-gtx-1650-windows-10-home-x571gt-al887t"
+        "link": "https://m.kabum.com.br/produto/133034/notebook-asus-gamer-intel-core-i5-9300h-8gb-256gb-ssd-tela-15-6-full-hd-120hz-nvidia-gtx-1650-windows-10-home-x571gt-al887t"
       },
       {
         "name": "Acer Nitro 5",
         "image": "https://images.kabum.com.br/produtos/fotos/159820/notebook-gamer-acer-nitro-5-amd-ryzen-7-4800h-8gb-ssd-512gb-gtx-1650-ti-4gb-15-6-windows-10-home-preto-e-vermelho-an515-44-r8hn_1623092842_gg.jpg",
-        "moba": "",
         "cpu": "AMD Ryzen 7 4800H",
         "storage": "512 SSD",
         "ram": "8GB",
         "gpu": "GTX 1650 Ti 4GB",
-        "price": "6.555,44",
+        "price": "6.500,00",
         "screen": "15.6 inch Full HD 144 Hz",
-        "link": "https://www.kabum.com.br/produto/159820/notebook-gamer-acer-nitro-5-amd-ryzen-7-4800h-8gb-ssd-512gb-gtx-1650-ti-4gb-15-6-windows-10-home-preto-e-vermelho-an515-44-r8hn"
+        "link": "https://m.kabum.com.br/produto/159820/notebook-gamer-acer-nitro-5-amd-ryzen-7-4800h-8gb-ssd-512gb-gtx-1650-ti-4gb-15-6-windows-10-home-preto-e-vermelho-an515-44-r8hn"
       }
     ]
   },
@@ -127,8 +118,8 @@ const hardware = {
       "storage": "SSD 240GB Kingston",
       "ram": "8GB DDR4 Adata 2666mhz (Suporta até 64GB)",
       "gpu": "Radeon™ Vega 8 Graphics",
-      "price": "3.222,11",
-      "link": "https://www.kabum.com.br/produto/251392/pc-gamer-concordia-ryzen-3-3200g-rgb-8gb-ddr4-ssd-240gb-radeon-vega-8-fonte-500w-linux-31164"
+      "price": "3.200,00",
+      "link": "https://m.kabum.com.br/produto/251392/pc-gamer-concordia-ryzen-3-3200g-rgb-8gb-ddr4-ssd-240gb-radeon-vega-8-fonte-500w-linux-31164"
     },
     {
       "name": "Computador Gamer Ark Powered By Asus",
@@ -138,8 +129,8 @@ const hardware = {
       "storage": "SSD 240GB",
       "ram": "8GB DDR4",
       "gpu": "Gráficos Radeon Vega 11",
-      "price": "3.436,56",
-      "link": "https://www.kabum.com.br/produto/190351/computador-gamer-ark-powered-by-asus-amd-ryzen-5-3400g-8gb-ssd-240gb-radeon-vega-11-windows-10-pro"
+      "price": "3.400,00",
+      "link": "https://m.kabum.com.br/produto/190351/computador-gamer-ark-powered-by-asus-amd-ryzen-5-3400g-8gb-ssd-240gb-radeon-vega-11-windows-10-pro"
     },
     {
       "name": "PC Gamer NTC Vulcano II",
@@ -149,8 +140,8 @@ const hardware = {
       "storage": "SSD 240GB",
       "ram": "8GB RAM",
       "gpu": "Gráficos UHD Intel® 630",
-      "price": "3.775,44",
-      "link": "https://www.kabum.com.br/produto/168793/pc-gamer-ntc-vulcano-ii-intel-core-i5-10400-8gb-ram-ssd-240gb-linux-preto-7159"
+      "price": "3.800,00",
+      "link": "https://m.kabum.com.br/produto/168793/pc-gamer-ntc-vulcano-ii-intel-core-i5-10400-8gb-ram-ssd-240gb-linux-preto-7159"
     }],
 
     mid: [{
@@ -161,8 +152,8 @@ const hardware = {
       "storage": "SSD 240GB",
       "ram": "8GB DDR4",
       "gpu": "GeForce MSI GTX 1050Ti Oc",
-      "price": "4.588,78",
-      "link": "https://www.kabum.com.br/produto/251396/pc-gamer-concordia-orion-core-i3-10100f-geforce-msi-gtx-1050ti-oc-8gb-ddr4-ssd-240gb-1x-cooler-led-linux-preto-31170"
+      "price": "4.600,00",
+      "link": "https://m.kabum.com.br/produto/251396/pc-gamer-concordia-orion-core-i3-10100f-geforce-msi-gtx-1050ti-oc-8gb-ddr4-ssd-240gb-1x-cooler-led-linux-preto-31170"
     },
     {
       "name": "PC Gamer Smart PC",
@@ -171,8 +162,8 @@ const hardware = {
       "storage": "1TB HD",
       "ram": "8GB",
       "gpu": "Geforce GTX 1650 4GB",
-      "price": "5.393,00",
-      "link": "https://www.kabum.com.br/produto/165852/kit-pc-gamer-smart-pc-intel-i5-8gb-geforce-gtx-1650-4gb-1tb-monitor-21-5-smt81288",
+      "price": "5.400,00",
+      "link": "https://m.kabum.com.br/produto/165852/kit-pc-gamer-smart-pc-intel-i5-8gb-geforce-gtx-1650-4gb-1tb-monitor-21-5-smt81288",
       "screen": "Monitor 21.5"
     },
     {
@@ -183,8 +174,8 @@ const hardware = {
       "storage": "SSD 240GB",
       "ram": "8GB DDR4",
       "gpu": "GeForce MSI GTX 1650 D6 OC",
-      "price": "5.699,89",
-      "link": "https://www.kabum.com.br/produto/251397/pc-gamer-concordia-bg-014-core-i5-10400f-geforce-msi-gtx-1650-d6-oc-8gb-ddr4-ssd-240gb-2x-coolers-led-linux-preto-31172"
+      "price": "5.700,00",
+      "link": "https://m.kabum.com.br/produto/251397/pc-gamer-concordia-bg-014-core-i5-10400f-geforce-msi-gtx-1650-d6-oc-8gb-ddr4-ssd-240gb-2x-coolers-led-linux-preto-31172"
     }],
 
     high: [{
@@ -195,8 +186,8 @@ const hardware = {
       "storage": "SSD 240GB",
       "ram": "8GB DDR4",
       "gpu": "GTX 1650 4GB",
-      "price": "6.444,33",
-      "link": "https://www.kabum.com.br/produto/238699/pc-gamer-onpress-powered-by-asus-i3-10100f-rgb-gtx-1650-4gb-8gb-ddr4-ssd-240gb-linux-preto-ong1010ft1658s24"
+      "price": "6.500,00",
+      "link": "https://m.kabum.com.br/produto/238699/pc-gamer-onpress-powered-by-asus-i3-10100f-rgb-gtx-1650-4gb-8gb-ddr4-ssd-240gb-linux-preto-ong1010ft1658s24"
     },
     {
       "name": "PC Gamer NAVE Urano AAT01",
@@ -206,8 +197,8 @@ const hardware = {
       "storage": "SSD 256GB + HD 1TB",
       "ram": "8GB RAM",
       "gpu": "Geforce GTX 1660",
-      "price": "8.816,56",
-      "link": "https://www.kabum.com.br/produto/166662/pc-gamer-nave-urano-aat01-ryzen-r5-3600-8gb-ram-ssd-256gb-hd-1tb-geforce-gtx-1660-super-linux-dnr5vb3f000"
+      "price": "8.800,00",
+      "link": "https://m.kabum.com.br/produto/166662/pc-gamer-nave-urano-aat01-ryzen-r5-3600-8gb-ram-ssd-256gb-hd-1tb-geforce-gtx-1660-super-linux-dnr5vb3f000"
     },
     {
       "name": "PC Gamer Concordia",
@@ -217,8 +208,8 @@ const hardware = {
       "storage": "SSD 480GB",
       "ram": "8GB DDR4",
       "gpu": "Gainward GTX 1660 Super Ghost",
-      "price": "9.033,22",
-      "link": "https://www.kabum.com.br/produto/251398/pc-gamer-concordia-i7-10700f-rgb-gainward-gtx-1660-super-ghost-8gb-ddr4-ssd-480gb-linux-preto-31168"
+      "price": "9.000,00",
+      "link": "https://m.kabum.com.br/produto/251398/pc-gamer-concordia-i7-10700f-rgb-gainward-gtx-1660-super-ghost-8gb-ddr4-ssd-480gb-linux-preto-31168"
     }]
   }
 }

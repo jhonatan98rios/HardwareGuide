@@ -23,7 +23,7 @@ export const Disclaimer = styled.Text`
   color: #fff;
   text-align: center;
   max-width: 90%;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   font-size: 12px;
 `
 
