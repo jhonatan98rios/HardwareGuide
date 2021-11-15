@@ -40,10 +40,6 @@ function Card({item}) {
           </Text>
         }
 
-
-
-
-
         {
           item.storage?.length > 0 &&
           <Text> 
@@ -101,8 +97,3 @@ function Card({item}) {
 }
 
 export default Card
-
-
-/* 
-Notebook para estudos
-*/
