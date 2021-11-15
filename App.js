@@ -16,10 +16,10 @@ import TabsNavigation from './Routes/tabs'
 
 export default function App() {
   return (
-    <View style={{ flex: 1, backgroundColor: '#0a0a1a' }}>
+    <View style={{ flex: 1, backgroundColor: '#000000' }}>
 
       <StatusBar
-        backgroundColor="#0a0a1a"
+        backgroundColor="#000000"
         barStyle="light-content"
       />
 

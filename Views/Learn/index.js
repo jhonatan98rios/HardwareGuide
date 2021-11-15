@@ -8,9 +8,11 @@ import { translate } from '../../locales'
 export default function Info({ navigation }) {
 
   const [ data, setData ] = useState(null)
+  //const endpoint = translate('learn.endpoint')
+  const endpoint = 'https://hardwareguide-api.herokuapp.com/api/learn'
 
   useEffect(()=>{
-    axios.post(translate('learn.endpoint'))
+    axios.post(endpoint)
     .then(response => setData(response.data))
     .catch(reject => console.log(reject))
   }, [])

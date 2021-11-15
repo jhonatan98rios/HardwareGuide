@@ -18,6 +18,8 @@ export default function Result({ route, navigation }) {
 
   const { sample } = route.params
   const [ content, setContent ] = useState(null)
+  //const endpoint = translate('result.endpoint')
+  const endpoint = 'https://hardwareguide-api.herokuapp.com/api/smart'
 
   useEffect(() => {
 
@@ -36,8 +38,12 @@ export default function Result({ route, navigation }) {
     /* Products request */
     if(!sample) { navigation.push('search') }
     else {
-      axios.post(translate('result.endpoint'), { text: sample })
-      .then(response => setContent(response.data))
+      axios.post(endpoint, { text: sample })
+      .then(response => {
+        console.log(response.data)
+
+        setContent(response.data)
+      })
       .catch(reject => console.log(reject))
     }
   }, [])

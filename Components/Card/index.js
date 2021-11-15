@@ -22,59 +22,65 @@ function Card({item}) {
       
       <Description>
         { 
-          item.name && 
+          item.name?.length > 0 && 
           <Bold> {item.name} </Bold> 
         }
 
         { 
-          (item.moba && item.moba.length > 0) && 
-          <Text> {translate('card_slider.moba')}: {item.moba} </Text> 
+          item.moba?.length > 0 && 
+          <Text> 
+            {translate('card_slider.moba')}: {item.moba} 
+          </Text> 
         }
 
         {
-          item.cpu &&
+          item.cpu?.length > 0 &&
           <Text> 
             {translate('card_slider.cpu')}: {item.cpu} 
           </Text>
         }
 
+
+
+
+
         {
-          item.storage &&
+          item.storage?.length > 0 &&
           <Text> 
             {translate('card_slider.storage')}: {item.storage} 
           </Text>
         }
 
         {
-          item.ram &&
+          item.ram?.length > 0 &&
           <Text> 
             {translate('card_slider.ram')}: {item.ram} 
           </Text>
         }
 
         {
-          item.gpu &&
+          item.gpu?.length > 0 &&
           <Text> 
             {translate('card_slider.gpu')}: {item.gpu} 
           </Text>
         }
 
         { 
-          item.screen && 
+          item.screen?.length > 0 && 
           <Text>
             {translate('card_slider.screen')}: {item.screen } 
           </Text> 
         }
 
         {
-          item.so &&
+          item.so?.length > 0 &&
           <Text> 
             {translate('card_slider.so')}: {item.so || 'Windows ou Linux'} 
           </Text>
         }
 
         {
-          item.price &&
+          item.price?.length > 0 &&
           <Price> 
             {translate('card_slider.price')}: {translate('card_slider.currency')}
             {item.price} 
@@ -82,8 +88,8 @@ function Card({item}) {
         }
 
         {
-          item.link &&
-          <Button onPress={() => Linking.openURL(item.link)}>
+          item.url?.length > 0 &&
+          <Button onPress={() => Linking.openURL(item.url)}>
             <Text style={{color: '#ffffff'}}>
               Ver o produto
             </Text>
@@ -95,3 +101,8 @@ function Card({item}) {
 }
 
 export default Card
+
+
+/* 
+Notebook para estudos
+*/
