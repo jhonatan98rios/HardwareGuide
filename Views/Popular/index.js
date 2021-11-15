@@ -10,9 +10,12 @@ const options = options_pt
 
 export default function Popular({ navigation }) {
 
-  function navigate(itens){
+  function navigate(option){
+
     navigation.navigate('PopularResult', {
-      itens,
+      device: option.device,
+      spec: option.spec,
+      purpose: option.purpose
     });
   }
 
@@ -25,7 +28,7 @@ export default function Popular({ navigation }) {
           { options.map((option, index) => (
             <TouchableOpacity 
               key={index}
-              onPress={()=> navigate(option.itens)}
+              onPress={()=> navigate(option)}
             >
               <Text>
                 { option.name }

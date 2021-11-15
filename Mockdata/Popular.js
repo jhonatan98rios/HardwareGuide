@@ -218,26 +218,44 @@ const hardware = {
 export const options_pt = [
   {
     name: 'Notebook Baixo Custo',
+    device: 'notebook',
+    spec: 'low',
+    purpose: 'person',
     itens: hardware.notebooks.low
   },
   {
     name: 'Notebook Custo Benefício',
+    device: 'notebook',
+    spec: 'mid',
+    purpose: 'person',
     itens: hardware.notebooks.mid
   },
   {
     name: 'Notebook High-End',
+    device: 'notebook',
+    spec: 'high',
+    purpose: 'pro',
     itens: hardware.notebooks.high
   },
   {
     name: 'PC Baixo Custo',
+    device: 'desktop',
+    spec: 'low',
+    purpose: 'person',
     itens: hardware.desktops.low
   },
   {
     name: 'PC Custo Benefício',
+    device: 'desktop',
+    spec: 'mid',
+    purpose: 'person',
     itens: hardware.desktops.mid
   },
   {
     name: 'PC High-End',
+    device: 'desktop',
+    spec: 'high',
+    purpose: 'pro',
     itens: hardware.desktops.high
   }
 ]

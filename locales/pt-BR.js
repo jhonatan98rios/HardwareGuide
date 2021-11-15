@@ -31,13 +31,13 @@ export default {
   result: {
     loading: 'Aguarde enquanto processamos seu pedido',
     title: 'Veja as sugestões que separamos para você',
-    disclaimer: '* Os preços podem váriar  de acordo com o mercado. Os preços ilustrados são somente para comparação.',
+    disclaimer: '* Os preços podem váriar, por isso são somente para comparação.',
     endpoint: 'https://hardwareguide-api.herokuapp.com/api/smart'
   },
 
   popular_result: {
     title: 'Veja as sugestões que separamos para você',
-    disclaimer: '* Os preços podem váriar  de acordo com o mercado. Os preços ilustrados são somente para comparação.'
+    disclaimer: '* Os preços podem váriar, por isso são somente para comparação.'
   },
 
   card_slider: {
