@@ -36,12 +36,12 @@ export default function Result({ route, navigation }) {
     showInterstitial()
 
     /* Products request */
-    if(!sample) { navigation.push('search') }
-    else {
+    if(!sample) { 
+      navigation.push('search')
+
+    } else {
       axios.post(endpoint, { text: sample })
       .then(response => {
-        console.log(response.data)
-
         setContent(response.data)
       })
       .catch(reject => console.log(reject))
@@ -50,23 +50,23 @@ export default function Result({ route, navigation }) {
 
   return (
     <> 
-    {
-      !content && (
-        <Container>
-          <ActivityIndicator color="#8257E6" size="large" /> 
-          <Text style={{ color: '#fff', marginTop: 24 }}> {translate('result.loading')} </Text>
-        </Container>
-      )
-    }
-    {
-      content && (
-        <Container>
-          <Title> {translate('result.title')} </Title>
-          <CardSlider content={content} /> 
-          <Disclaimer> {translate('result.disclaimer')} </Disclaimer>
-        </Container>
-      )
-    }
+      {
+        !content && (
+          <Container>
+            <ActivityIndicator color="#8257E6" size="large" /> 
+            <Text style={{ color: '#fff', marginTop: 24 }}> {translate('result.loading')} </Text>
+          </Container>
+        )
+      }
+      {
+        content && (
+          <Container>
+            <Title> {translate('result.title')} </Title>
+            <CardSlider content={content} /> 
+            <Disclaimer> {translate('result.disclaimer')} </Disclaimer>
+          </Container>
+        )
+      }
     </>
   );
 }
