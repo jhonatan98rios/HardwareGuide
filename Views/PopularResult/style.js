@@ -6,12 +6,13 @@ export const Container = styled.View`
   justify-content: center;
   background-color: #0a0a1a;
   height: auto;
+  min-height: 460px;
 `
 
 export const Title = styled.Text`
   text-align: center;
   width: 60%;
-  margin-top: 24px;
+  margin-top: 16px;
   color: #4CC392;
   font-size: 18px;
   font-weight: bold;
@@ -22,7 +23,7 @@ export const Disclaimer = styled.Text`
   color: #fff;
   text-align: center;
   max-width: 90%;
-  margin-bottom: 24px;
-  font-size: 12px;
+  margin-bottom: 20px;
+  font-size: 10px;
 `
 

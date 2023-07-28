@@ -3,22 +3,31 @@ import React from 'react';
 import { Dimensions, Text } from 'react-native'
 import Carousel from 'react-native-snap-carousel';
 import Icon from 'react-native-vector-icons/Entypo';
-import { Box, Description, Image, Bold, Price, Container } from './style'
+import { Box, Description, Image, Price, Container, ImageView } from './style'
+import { ExternalLinkButton } from '../ExternalLinkButton'
 
 import { translate } from '../../locales'
 
 function Card({item}) {
   return (
     <Box>
-      { item.image && <Image source={{uri: item.image }} /> }
+      { 
+        item.image && 
+          <ImageView> 
+            <Image source={{uri: item.image }} /> 
+          </ImageView> 
+      }
+
       { !item.image && <Icon name="info" size={26} color='#FFF'/> }
       
       <Description>
         { item.name && 
-          <Bold> {item.name} </Bold> 
+          <ExternalLinkButton url={item.link}>
+            {item.name}
+          </ExternalLinkButton>
         }
 
-        { item.moba && 
+        { (item.moba && item.moba.length > 0) && 
           <Text> {translate('card_slider.moba')}: 
           {item.moba} </Text> 
         }

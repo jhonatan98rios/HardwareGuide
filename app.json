@@ -30,6 +30,11 @@
         "googleMobileAdsAppId": "ca-app-pub-4295099091792843~7836593344"
       },
       "permissions": []
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d4590294-2f10-4574-a2a1-ed17eba82d41"
+      }
     }
   }
 }

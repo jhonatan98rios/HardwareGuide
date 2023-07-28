@@ -37,8 +37,8 @@ export default function Result({ route, navigation }) {
     if(!sample) { navigation.push('search') }
     else {
       axios.post(translate('result.endpoint'), { text: sample })
-      .then(response => setContent(response.data))
-      .catch(reject => console.log(reject))
+        .then(response => setContent(response.data))
+        .catch(reject => console.log(reject))
     }
   }, [])
 

@@ -15,7 +15,7 @@ export default {
 
   learn: {
     title: 'Learn about hardware',
-    endpoint: 'https://smart-gadget-web.herokuapp.com/api/learn_en'
+    endpoint: 'http://10.0.2.2:3000/dev/content'
   },
 
   popular: {

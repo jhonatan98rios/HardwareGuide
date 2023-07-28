@@ -9,10 +9,17 @@ export default function Info({ navigation }) {
 
   const [ data, setData ] = useState(null)
 
+  async function getData() {
+    try {
+      const response = await axios.get(translate('learn.endpoint'))
+      setData(response.data)
+    } catch (err) {
+      console.log(err)
+    }
+  }
+
   useEffect(()=>{
-    axios.post(translate('learn.endpoint'))
-    .then(response => setData(response.data))
-    .catch(reject => console.log(reject))
+    getData()
   }, [])
 
   function navigate(item){

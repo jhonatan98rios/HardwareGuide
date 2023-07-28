@@ -7,18 +7,19 @@ export const Container = styled.View`
   max-height: 360px;
 `
 
-export const Bold = styled.Text`
-  font-weight: bold;
-  color: #8257E6;
-  margin: -12px 0px 4px;
-  text-align: center;
+export const ImageView = styled.View`
+  width: 90px;
+  height: 90px;
+  margin: -48px auto 0px;
+  border-radius: 90px;
+  border: 2px solid #4CC392;
 `
 
 export const Image = styled.Image`
-  padding: 8px;
-  width: 110px;
-  height: 100px;
-  margin: -40px auto 16px;
+  width: 86px;
+  height: 86px;
+  border-radius: 90px;
+  margin: 0;
 `
 
 export const Box = styled.View`
@@ -41,7 +42,8 @@ export const Description = styled.View`
   padding-bottom: 10px;
 `
 
-export const Price = styled(Bold)`
+export const Price = styled.Text`
+  font-weight: bold;
   margin-top: 4px;
   color: #555;
 `

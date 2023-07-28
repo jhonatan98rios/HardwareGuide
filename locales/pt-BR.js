@@ -15,7 +15,7 @@ export default {
 
   learn: {
     title: 'Aprenda sobre hardware',
-    endpoint: 'https://smart-gadget-web.herokuapp.com/api/learn'
+    endpoint: 'https://tz4t8f081h.execute-api.us-east-1.amazonaws.com/dev/content'
   },
 
   popular: {
@@ -32,12 +32,13 @@ export default {
     loading: 'Aguarde enquanto processamos seu pedido',
     title: 'Veja as sugestões que separamos para você',
     disclaimer: '* Os preços podem váriar  de acordo com o mercado. Os preços ilustrados são somente para comparação.',
-    endpoint: 'https://smart-gadget-web.herokuapp.com/api/smart'
+    endpoint: 'https://tz4t8f081h.execute-api.us-east-1.amazonaws.com/dev/smart'
   },
 
   popular_result: {
     title: 'Veja as sugestões que separamos para você',
-    disclaimer: '* Os preços podem váriar  de acordo com o mercado. Os preços ilustrados são somente para comparação.'
+    disclaimer: '* Os preços podem váriar  de acordo com o mercado. Os preços ilustrados são somente para comparação.',
+    endpoint: 'https://tz4t8f081h.execute-api.us-east-1.amazonaws.com/dev/products'
   },
 
   card_slider: {

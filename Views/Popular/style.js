@@ -17,7 +17,7 @@ export const View = styled.View`
 export const Title = styled.Text`
   text-align: center;
   width: 80%;
-  margin: 4px auto 0px;
+  margin: 0px auto;
   color: #4CC392;
   font-size: 18px;
   font-weight: bold;
