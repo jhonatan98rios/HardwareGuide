@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Icon from 'react-native-vector-icons/Entypo';
+import { Icon } from '../Components/Icon'
 
 import { StackNavigation, PopularStackNavigation, LearnStackNavigation } from './stacks'
 
